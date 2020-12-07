@@ -46,11 +46,11 @@ What I learned from this project:
 ### [4. Print float](./4-print_float.py)
 * A Python script that prints the float stored in the variable number with a precision of 2 digits.
 
-<!--
+
 ### [5. Print string](./5-print_string.py)
-* Complete this source code in order to print 3 times a string stored in the variable str, followed by its first 9 characters.
+* A Python script that prints 3 times a string stored in the variable str, followed by its first 9 characters.
 
-
+<!--
 ### [6. Play with strings](./6-concat.py)
 * Complete this source code to print Welcome to Holberton School!
 
