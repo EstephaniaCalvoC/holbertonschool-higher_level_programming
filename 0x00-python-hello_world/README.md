@@ -62,11 +62,11 @@ What I learned from this project:
 ### [8. Create a new sentence](./8-concat_edges.py)
 * A Python script that prints object-oriented programming with Python, followed by a new line.
 
-<!--
+
 ### [9. Easter Egg](./9-easter_egg.py)
-* Write a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.
+* A Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.
 
-
+<!--
 ### [10. Linked list cycle](./10-check_cycle.c)
 * Technical interview preparation: 
 
