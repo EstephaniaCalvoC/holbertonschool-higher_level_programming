@@ -69,12 +69,12 @@ What I learned from this project:
 <!--
 ### [10. Linked list cycle](./10-check_cycle.c)
 * Technical interview preparation: 
-
+-->
 
 ### [11. Hello, write](./100-write.py)
-* Write a Python script that prints exactly and that piece of art is useful - Dora Korpar, 2015-10-19, followed by a new line.
+* A Python script that prints exactly and that piece of art is useful - Dora Korpar, 2015-10-19, followed by a new line, with funtion write.
 
-
+<!--
 ### [12. Compile](./101-compile)
 * Write a script that compiles a Python script file.
 
