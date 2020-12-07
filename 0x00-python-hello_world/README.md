@@ -26,11 +26,11 @@ What I learned from this project:
 * What is the official Holberton Python coding style and how to check your code with PEP 8
 
 ---
-<!--
+
 ### [0. Run Python file](./0-run)
-* Write a Shell script that runs a Python script.
+* A Shell script that runs a Python script.
 
-
+<!--
 ### [1. Run inline](./1-run_inline)
 * Write a Shell script that runs Python code.
 
