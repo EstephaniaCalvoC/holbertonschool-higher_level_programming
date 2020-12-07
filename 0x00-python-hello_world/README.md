@@ -38,11 +38,11 @@ What I learned from this project:
 ### [2. Hello, print](./2-print.py)
 * A Python script that prints exactly \"Programming is like building a multilingual puzzle, followed by a new line.
 
-<!--
+
 ### [3. Print integer](./3-print_number.py)
-* Complete this source code in order to print the integer stored in the variable number, followed by Battery street, followed by a new line.
+* A Python script that prints integer stored in the variable number, followed by Battery street, followed by a new line.
 
-
+<!--
 ### [4. Print float](./4-print_float.py)
 * Complete the source code in order to print the float stored in the variable number with a precision of 2 digits.
 
