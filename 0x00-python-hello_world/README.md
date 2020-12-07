@@ -78,10 +78,8 @@ What I learned from this project:
 ### [12. Compile](./101-compile)
 * A script that compiles a Python script file.
 
-<!--
 ### [13. ByteCode -> Python #1](./102-magic_calculation.py)
-* Write the Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode:
--->
+* A Python script with the function def magic_calculation(a, b).
 ---
 
 ## Author
