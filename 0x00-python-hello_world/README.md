@@ -54,11 +54,11 @@ What I learned from this project:
 ### [6. Play with strings](./6-concat.py)
 * A Python script that prints Welcome to Holberton School!
 
-<!--
+
 ### [7. Copy - Cut - Paste](./7-edges.py)
-* Complete this source code
+* A Python script that prints some parts of Holberton.
 
-
+<!--
 ### [8. Create a new sentence](./8-concat_edges.py)
 * Complete this source code to print object-oriented programming with Python, followed by a new line.
 
