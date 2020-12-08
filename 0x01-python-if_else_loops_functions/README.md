@@ -32,11 +32,11 @@ What I learned from this project:
 * What are the arithmetic operators and how to use them
 
 ---
-<!--
+
 ### [0. Positive anything is better than negative nothing](./0-positive_or_negative.py)
-* This program will assign a random signed number to the variable number each time it is executed. Complete the source code in order to print whether the number stored in the variable number is positive or negative.
+* A Python script that prints if a random number is positive, negative or zero.
 
-
+<!--
 ### [1. The last digit](./1-last_digit.py)
 * This program will assign a random signed number to the variable number each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable number.
 
