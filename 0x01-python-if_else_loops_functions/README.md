@@ -60,11 +60,11 @@ What I learned from this project:
 ### [6. Inventing is a combination of brains and materials. The more brains you use, the less material you need](./6-print_comb3.py)
 * A script that prints all possible different combinations of two digits.
 
-<!--
+
 ### [7. islower](./7-islower.py)
-* Write a function that checks for lowercase character. 
+* A function that checks for lowercase character.
 
-
+<!--
 ### [8. To uppercase](./8-uppercase.py)
 * Write a function that prints a string in uppercase followed by a new line.
 
