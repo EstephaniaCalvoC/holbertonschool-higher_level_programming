@@ -48,11 +48,11 @@ What I learned from this project:
 ### [3. When I was having that alphabet soup, I never thought that it would pay off](./3-print_alphabt.py)
 * A script that prints the ASCII alphabet, in lowercase, not followed by a new line, except e and q characters.
 
-<!--
+
 ### [4. Hexadecimal printing](./4-print_hexa.py)
-* Write a program that prints all numbers from 0 to 98 in decimal and in hexadecimal (as in the following example)
+* A script that prints all numbers from 0 to 98 in decimal and in hexadecimal.
 
-
+<!--
 ### [5. 00...99](./5-print_comb2.py)
 * Write a program that prints numbers from 0 to 99.
 
