@@ -68,11 +68,11 @@ What I learned from this project:
 ### [8. To uppercase](./8-uppercase.py)
 * A function that prints a string in uppercase followed by a new line.
 
-<!--
+
 ### [9. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important](./9-print_last_digit.py)
-* Write a function that prints the last digit of a number.
+* A function that prints the last digit of a number.
 
-
+<!--
 ### [10. a + b](./10-add.py)
 * Write a function that adds two integers and returns the result.
 
