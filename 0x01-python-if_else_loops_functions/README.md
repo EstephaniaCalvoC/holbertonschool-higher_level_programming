@@ -40,11 +40,11 @@ What I learned from this project:
 ### [1. The last digit](./1-last_digit.py)
 * A Python script that prints the last digit of a number stored in the variable number.
 
-<!--
+
 ### [2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game](./2-print_alphabet.py)
-* Write a program that prints the ASCII alphabet, in lowercase, not followed by a new line.
+* A script that prints the ASCII alphabet, in lowercase, not followed by a new line.
 
-
+<!--
 ### [3. When I was having that alphabet soup, I never thought that it would pay off](./3-print_alphabt.py)
 * Write a program that prints the ASCII alphabet, in lowercase, not followed by a new line.
 
