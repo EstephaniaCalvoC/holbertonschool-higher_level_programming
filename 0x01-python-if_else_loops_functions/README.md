@@ -36,11 +36,11 @@ What I learned from this project:
 ### [0. Positive anything is better than negative nothing](./0-positive_or_negative.py)
 * A Python script that prints if a random number is positive, negative or zero.
 
-<!--
+
 ### [1. The last digit](./1-last_digit.py)
-* This program will assign a random signed number to the variable number each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable number.
+* A Python script that prints the last digit of a number stored in the variable number.
 
-
+<!--
 ### [2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game](./2-print_alphabet.py)
 * Write a program that prints the ASCII alphabet, in lowercase, not followed by a new line.
 
