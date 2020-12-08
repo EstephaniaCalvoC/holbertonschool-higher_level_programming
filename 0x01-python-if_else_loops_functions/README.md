@@ -56,11 +56,11 @@ What I learned from this project:
 ### [5. 00...99](./5-print_comb2.py)
 * A script that prints numbers from 0 to 99.
 
-<!--
+
 ### [6. Inventing is a combination of brains and materials. The more brains you use, the less material you need](./6-print_comb3.py)
-* Write a program that prints all possible different combinations of two digits.
+* A script that prints all possible different combinations of two digits.
 
-
+<!--
 ### [7. islower](./7-islower.py)
 * Write a function that checks for lowercase character. 
 
