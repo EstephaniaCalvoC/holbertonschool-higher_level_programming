@@ -52,11 +52,11 @@ What I learned from this project:
 ### [4. Hexadecimal printing](./4-print_hexa.py)
 * A script that prints all numbers from 0 to 98 in decimal and in hexadecimal.
 
-<!--
+
 ### [5. 00...99](./5-print_comb2.py)
-* Write a program that prints numbers from 0 to 99.
+* A script that prints numbers from 0 to 99.
 
-
+<!--
 ### [6. Inventing is a combination of brains and materials. The more brains you use, the less material you need](./6-print_comb3.py)
 * Write a program that prints all possible different combinations of two digits.
 
