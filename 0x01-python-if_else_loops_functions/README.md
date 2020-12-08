@@ -64,11 +64,11 @@ What I learned from this project:
 ### [7. islower](./7-islower.py)
 * A function that checks for lowercase character.
 
-<!--
+
 ### [8. To uppercase](./8-uppercase.py)
-* Write a function that prints a string in uppercase followed by a new line.
+* A function that prints a string in uppercase followed by a new line.
 
-
+<!--
 ### [9. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important](./9-print_last_digit.py)
 * Write a function that prints the last digit of a number.
 
