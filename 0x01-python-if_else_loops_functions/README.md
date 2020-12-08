@@ -76,17 +76,17 @@ What I learned from this project:
 ### [10. a + b](./10-add.py)
 * A function that adds two integers and returns the result.
 
-<!--
+
 ### [11. a ^ b](./11-pow.py)
-* Write a function that computes a to the power of b and return the value.
+* A function that computes a to the power of b and return the value.
 
 
 ### [12. Fizz Buzz](./12-fizzbuzz.py)
-* Write a function that prints the numbers from 1 to 100 separated by a space. 
+* A function that prints the numbers from 1 to 100 separated by a space.
 
-
+<!--
 ### [13. Insert in sorted linked list](./13-insert_number.c)
-* Technical interview preparation: 
+* Technical interview preparation:
 
 
 ### [14. Smile in the mirror](./100-print_tebahpla.py)
