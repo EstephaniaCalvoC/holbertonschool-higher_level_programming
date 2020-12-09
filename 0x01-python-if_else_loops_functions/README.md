@@ -92,11 +92,11 @@ What I learned from this project:
 ### [14. Smile in the mirror](./100-print_tebahpla.py)
 * A Python script that prints the ASCII alphabet, in reverse order, alternating lowercase and uppercase.
 
-<!--
+
 ### [15. Remove at position](./101-remove_char_at.py)
-* Write a function that creates a copy of the string, removing the character at the position n (not the Python way, the “C array index”).
+* A function that creates a copy of the string, removing the character at the position n.
 
-
+<!--
 ### [16. ByteCode -> Python #2](./102-magic_calculation.py)
 * Write the Python function def magic_calculation(a, b, c): that does exactly the same as the following Python bytecode:
 -->
