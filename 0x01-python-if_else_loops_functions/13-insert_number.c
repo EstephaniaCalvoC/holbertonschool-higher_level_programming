@@ -19,6 +19,14 @@ listint_t *insert_node(listint_t **head, int number)
 	/*Identify split node*/
 	tmp = *head;
 
+	/*List empty*/
+	if (!tmp->next || tmp->next->n >= number)
+	{
+		new_node->next = tmp->next;
+		*head = new_node;
+		return (new_node);
+	}
+
 	for (; tmp->next && tmp->next->n < number;)
 		tmp = tmp->next;
 
