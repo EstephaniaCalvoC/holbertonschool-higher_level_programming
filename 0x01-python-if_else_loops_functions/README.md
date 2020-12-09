@@ -84,15 +84,15 @@ What I learned from this project:
 ### [12. Fizz Buzz](./12-fizzbuzz.py)
 * A function that prints the numbers from 1 to 100 separated by a space.
 
-<!--
+
 ### [13. Insert in sorted linked list](./13-insert_number.c)
-* Technical interview preparation:
+* A function in C that inserts a number into a sorted singly linked list.
 
 
 ### [14. Smile in the mirror](./100-print_tebahpla.py)
-* Write a program that prints the ASCII alphabet, in reverse order, alternating lowercase and uppercase (z in lowercase and Y in uppercase) , not followed by a new line.
+* A Python script that prints the ASCII alphabet, in reverse order, alternating lowercase and uppercase.
 
-
+<!--
 ### [15. Remove at position](./101-remove_char_at.py)
 * Write a function that creates a copy of the string, removing the character at the position n (not the Python way, the “C array index”).
 
