@@ -54,11 +54,11 @@ What I lerned from this project:
 <!--
 ### [8. ByteCode -> Python #3](./102-magic_calculation.py)
 * Write the Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode:
-
+-->
 
 ### [9. Fast alphabet](./103-fast_alphabet.py)
-* Write a program that prints the alphabet in uppercase, followed by a new line.
--->
+* A Python script that prints the alphabet in uppercase, followed by a new line.
+
 ---
 
 ## Author
