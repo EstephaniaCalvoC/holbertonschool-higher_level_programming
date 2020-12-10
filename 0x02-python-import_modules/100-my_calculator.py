@@ -23,3 +23,4 @@ if __name__ == "__main__":
     b = int(argv[3])
 
     print("{} {} {} = {}".format(a, oper, b, calc[oper](a, b)))
+    sys.exit(0)
