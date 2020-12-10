@@ -11,7 +11,8 @@ if __name__ == "__main__":
     if (argc != 4):
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         sys.exit(1)
-    elif (argv[2] not in list(calc.keys())):
+
+        if (argv[2] not in list(calc.keys())):
         print("Unknown operator. Available operators: +, -, *, and /")
         sys.exit(1)
 
