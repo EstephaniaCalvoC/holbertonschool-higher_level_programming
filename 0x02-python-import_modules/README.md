@@ -27,11 +27,11 @@ What I lerned from this project:
 ### [1. My first toolbox!](./1-calculation.py)
 * A Python script that imports functions from the file calculator_1.py, does some Maths, and prints the result.
 
-<!--
+
 ### [2. How to make a script dynamic!](./2-args.py)
-* Write a program that prints the number of and the list of its arguments.
+* A Python script that prints the number of and the list of its arguments.
 
-
+<!--
 ### [3. Infinite addition](./3-infinite_add.py)
 * Write a program that prints the result of the addition of all arguments
 
