@@ -4,20 +4,18 @@ if __name__ == "__main__":
     from calculator_1 import add, mul, sub, div
     import sys
 
-    argv = sys.argv
-    argc = len(argv)
-    calc = {"+": add, "*": mul, "-": sub, "/": div}
-
-    if (argc != 4):
+    print(sys.argv)
+    if len(sys.argv) != 4:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         sys.exit(1)
 
-    if (argv[2] not in list(calc.keys())):
+    calc = {"+": add, "*": mul, "-": sub, "/": div}
+
+    if sys.argv[2] not in list(calc.keys()):
         print("Unknown operator. Available operators: +, -, *, and /")
         sys.exit(1)
 
-    a = int(argv[1])
-    oper = argv[2]
-    b = int(argv[3])
+    a = int(sys.argv[1])
+    b = int(sys.argv[3])
 
-    print("{} {} {} = {}".format(a, oper, b, calc[oper](a, b)))
+    print("{} {} {} = {}".format(a, sys.argv[2], b, calc[sys.argv[2]](a, b)))
