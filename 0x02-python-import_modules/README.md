@@ -43,11 +43,11 @@ What I lerned from this project:
 ### [5. Everything can be imported](./5-variable_load.py)
 * A Python script that imports the variable a from the file variable_load_5.py and prints its value.
 
-<!--
+
 ### [6. Build my own calculator!](./100-my_calculator.py)
-* Write a program that imports all functions from the file calculator_1.py and handles basic operations.
+* A Python script that imports all functions from the file calculator_1.py and handles basic operations.
 
-
+<!--
 ### [7. Easy print](./101-easy_print.py)
 * Write a program that prints #pythoniscool, followed by a new line, in the standard output.
 
