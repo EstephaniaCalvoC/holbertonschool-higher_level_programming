@@ -19,11 +19,11 @@ What I lerned from this project:
 * How to use command line arguments with your Python programs
 
 ---
-<!--
+
 ### [0. Import a simple function from a simple file](./0-add.py)
-* Write a program that imports the function def add(a, b): from the file add_0.py and prints the result of the addition 1 + 2 = 3
+* A Python script that imports the function def add(a, b): from the file add_0.py and prints the result of the addition 1 + 2 = 3
 
-
+<!--
 ### [1. My first toolbox!](./1-calculation.py)
 * Write a program that imports functions from the file calculator_1.py, does some Maths, and prints the result.
 
