@@ -31,11 +31,11 @@ What I lerned from this project:
 ### [2. How to make a script dynamic!](./2-args.py)
 * A Python script that prints the number of and the list of its arguments.
 
-<!--
+
 ### [3. Infinite addition](./3-infinite_add.py)
-* Write a program that prints the result of the addition of all arguments
+* A Python script that prints the result of the addition of all arguments
 
-
+<!--
 ### [4. Who are you?](./4-hidden_discovery.py)
 * Write a program that prints all the names defined by the compiled module hidden_4.pyc (please download it locally).
 
