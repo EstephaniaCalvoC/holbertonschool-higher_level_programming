@@ -47,11 +47,11 @@ What I lerned from this project:
 ### [6. Build my own calculator!](./100-my_calculator.py)
 * A Python script that imports all functions from the file calculator_1.py and handles basic operations.
 
-<!--
+
 ### [7. Easy print](./101-easy_print.py)
-* Write a program that prints #pythoniscool, followed by a new line, in the standard output.
+* A Python script that prints #pythoniscool, followed by a new line, in the standard output.
 
-
+<!--
 ### [8. ByteCode -> Python #3](./102-magic_calculation.py)
 * Write the Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode:
 
