@@ -1,9 +1,6 @@
 #!/usr/bin/python3
 
-
 if __name__ == "__main__":
-    """Calculate the add, substract, multiplication
-    and division of two numbers"""
     import sys
     from calculator_1 import add, mul, sub, div
 
