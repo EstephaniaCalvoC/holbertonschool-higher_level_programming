@@ -64,11 +64,11 @@ What I learned from this project:
 ### [9. Find the max](./9-max_integer.py)
 * A function that finds the biggest integer of a list. 
 
-<!--
+
 ### [10. Only by 2](./10-divisible_by_2.py)
-* Write a function that finds all multiples of 2 in a list.
+* A function that finds all multiples of 2 in a list.
 
-
+<!--
 ### [11. Delete at](./11-delete_at.py)
 * Write a function that deletes the item at a specific position in a list.
 
