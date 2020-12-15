@@ -44,11 +44,11 @@ What I learned from this project:
 ### [4. Replace in a copy](./4-new_in_list.py)
 * A function that replaces an element in a list at a specific position without modifying the original list.
 
-<!--
+
 ### [5. Can you C me now?](./5-no_c.py)
-* Write a function that removes all characters c and C from a string.
+* A function that removes all characters c and C from a string.
 
-
+<!--
 ### [6. Lists of lists = Matrix](./6-print_matrix_integer.py)
 * Write a function that prints a matrix of integers.
 
