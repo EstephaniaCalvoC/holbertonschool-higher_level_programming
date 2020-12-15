@@ -60,11 +60,11 @@ What I learned from this project:
 ### [8. More returns!](./8-multiple_returns.py)
 * A function that returns a tuple with the length of a string and its first character.
 
-<!--
+
 ### [9. Find the max](./9-max_integer.py)
-* Write a function that finds the biggest integer of a list. 
+* A function that finds the biggest integer of a list. 
 
-
+<!--
 ### [10. Only by 2](./10-divisible_by_2.py)
 * Write a function that finds all multiples of 2 in a list.
 
