@@ -24,11 +24,11 @@ What I learned from this project:
 * What is the del statement and how to use it
 
 ---
-<!--
+
 ### [0. Print a list of integers](./0-print_list_integer.py)
-* Write a function that prints all integers of a list.
+* A function that prints all integers of a list.
 
-
+<!--
 ### [1. Secure access to an element in a list](./1-element_at.py)
 * Write a function that retrieves an element from a list like in C.
 
