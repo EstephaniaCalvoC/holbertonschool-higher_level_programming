@@ -52,11 +52,11 @@ What I learned from this project:
 ### [6. Lists of lists = Matrix](./6-print_matrix_integer.py)
 * A function that prints a matrix of integers.
 
-<!--
+
 ### [7. Tuples addition](./7-add_tuple.py)
-* Write a function that adds 2 tuples.
+* A function that adds 2 tuples.
 
-
+<!--
 ### [8. More returns!](./8-multiple_returns.py)
 * Write a function that returns a tuple with the length of a string and its first character.
 
