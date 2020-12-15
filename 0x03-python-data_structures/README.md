@@ -48,11 +48,11 @@ What I learned from this project:
 ### [5. Can you C me now?](./5-no_c.py)
 * A function that removes all characters c and C from a string.
 
-<!--
+
 ### [6. Lists of lists = Matrix](./6-print_matrix_integer.py)
-* Write a function that prints a matrix of integers.
+* A function that prints a matrix of integers.
 
-
+<!--
 ### [7. Tuples addition](./7-add_tuple.py)
 * Write a function that adds 2 tuples.
 
