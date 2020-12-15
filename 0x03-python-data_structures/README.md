@@ -28,11 +28,11 @@ What I learned from this project:
 ### [0. Print a list of integers](./0-print_list_integer.py)
 * A function that prints all integers of a list.
 
-<!--
+
 ### [1. Secure access to an element in a list](./1-element_at.py)
 * Write a function that retrieves an element from a list like in C.
 
-
+<!--
 ### [2. Replace element](./2-replace_in_list.py)
 * Write a function that replaces an element of a list at a specific position (like in C).
 
