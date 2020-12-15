@@ -68,11 +68,11 @@ What I learned from this project:
 ### [10. Only by 2](./10-divisible_by_2.py)
 * A function that finds all multiples of 2 in a list.
 
-<!--
+
 ### [11. Delete at](./11-delete_at.py)
-* Write a function that deletes the item at a specific position in a list.
+* A function that deletes the item at a specific position in a list.
 
-
+<!--
 ### [12. Switch](./12-switch.py)
 * Complete the source code in order to switch value of a and b
 
