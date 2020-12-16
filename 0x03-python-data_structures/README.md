@@ -76,11 +76,11 @@ What I learned from this project:
 ### [12. Switch](./12-switch.py)
 * A Python script that switchs value of a and b.
 
-<!--
+
 ### [13. Linked list palindrome](./13-is_palindrome.c)
-* Technical interview preparation: 
+* Check if a linked list is a palindromo.
 
-
+<!--
 ### [14. CPython #0: Python lists](./100-print_python_list_info.c)
 * CPython is the reference implementation of the Python programming language. Written in C, CPython is the default and most widely used implementation of the language.
 Since we now know a bit of C, we can look at what is happening under the hood of Python. Let’s have fun with Python and C, and let’s look at what makes Python so easy to use.
