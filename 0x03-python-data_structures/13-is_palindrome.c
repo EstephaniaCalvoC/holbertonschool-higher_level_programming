@@ -21,7 +21,7 @@ size_t len_list(listint_t *h)
  */
 listint_t *rev_list(listint_t **head)
 {
-	listint_t *prev, *next, *current;
+	listint_t *prev = NULL, *next = NULL, *current = NULL;
 
 	for (current = *head; current;)
 	{
