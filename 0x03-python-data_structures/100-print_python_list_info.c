@@ -1,14 +1,13 @@
-#define PY_SSIZE_T_CLEAN
 #include <Python.h>
 
 /**
- * print_python_list_info - Print some basic info about Python lists.
- * @p: Pointer to Python object
+ * print_python_list_info - Print basic info about Python lists.
+ * @p: Pointer to PyObject.
  */
 void print_python_list_info(PyObject *p)
 {
 	int size, bytes, i;
-	PyObjct *element;
+	PyObject *element;
 
 	size = Py_SIZE(p);
 	bytes = ((PyListObject *)p)->allocated;
@@ -19,7 +18,8 @@ void print_python_list_info(PyObject *p)
 	for (i = 0; i < size; i++)
 	{
 		printf("Element %d: ", i);
+
 		element = PyList_GetItem(p, i);
-		printf("%s\n", Py_TYPE(obj)->tp_name);
+		printf("%s\n", Py_TYPE(element)->tp_name);
 	}
 }
