@@ -23,11 +23,12 @@ listint_t *rev_list(listint_t **head)
 {
 	listint_t *prev, *next, *current;
 
-	for (current = *head; current; current = next)
+	for (current = *head; current;)
 	{
 		next = current->next;
 		current->next = prev;
 		prev = current;
+		current = next;
 	}
 
 	*head = prev;
@@ -51,6 +52,7 @@ int is_palindrome(listint_t **head)
 	len = len_list(tmp);
 
 	/*Go to the middle*/
+	tmp = *head;
 	for (i = 0; i < (len / 2) - 1; i++)
 		tmp = tmp->next;
 
