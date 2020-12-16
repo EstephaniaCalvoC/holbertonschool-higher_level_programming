@@ -21,9 +21,6 @@ size_t len_list(listint_t *h)
  */
 listint_t *rev_list(listint_t **head)
 {
-	if (!head || !(*head))
-		return (NULL);
-
 	listint_t *prev, *next, *current;
 
 	for (current = *head; current; current = next)
@@ -33,7 +30,8 @@ listint_t *rev_list(listint_t **head)
 		prev = current;
 	}
 
-	return (prev);
+	*head = prev;
+	return (*head);
 }
 
 /**
