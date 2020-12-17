@@ -31,11 +31,11 @@ What I learned from this project:
 ### [1. Search and replace](./1-search_replace.py)
 * A function that replaces all occurrences of an element by another in a new list.
 
-<!--
+
 ### [2. Unique addition](./2-uniq_add.py)
-* Write a function that adds all unique integers in a list (only once for each integer).
+* A function that adds all unique integers in a list (only once for each integer).
 
-
+<!--
 ### [3. Present in both](./3-common_elements.py)
 * Write a function that returns a set of common elements in two sets.
 
