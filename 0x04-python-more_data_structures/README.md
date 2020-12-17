@@ -63,11 +63,11 @@ What I learned from this project:
 ### [9. Multiply by 2](./9-multiply_by_2.py)
 * A function that returns a new dictionary with all values multiplied by 2
 
-<!--
+
 ### [10. Best score](./10-best_score.py)
-* Write a function that returns a key with the biggest integer value.
+* A function that returns a key with the biggest integer value.
 
-
+<!--
 ### [11. Multiply by using map](./11-multiply_list_map.py)
 * Write a function that returns a list with all values multiplied by a number without using any loops.
 
