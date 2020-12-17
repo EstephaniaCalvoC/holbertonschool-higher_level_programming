@@ -79,11 +79,11 @@ What I learned from this project:
 ### [13. Weighted average!](./100-weight_average.py)
 * A function that returns the weighted average of all integers tuple (<score>, <weight>)
 
-<!--
+
 ### [14. Squared by using map](./101-square_matrix_map.py)
-* Write a function that computes the square value of all integers of a matrix using map
+* A function that computes the square value of all integers of a matrix using map
 
-
+<!--
 ### [15. Delete by value](./102-complex_delete.py)
 * Write a function that deletes keys with a specific value in a dictionary.
 
