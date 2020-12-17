@@ -71,11 +71,11 @@ What I learned from this project:
 ### [11. Multiply by using map](./11-multiply_list_map.py)
 * A function that returns a list with all values multiplied by a number without using any loops.
 
-<!--
+
 ### [12. Roman to Integer](./12-roman_to_int.py)
-* Technical interview preparation: 
+* Convert a Roman numeral to an integer.
 
-
+<!--
 ### [13. Weighted average!](./100-weight_average.py)
 * Write a function that returns the weighted average of all integers tuple (<score>, <weight>)
 
