@@ -67,11 +67,11 @@ What I learned from this project:
 ### [10. Best score](./10-best_score.py)
 * A function that returns a key with the biggest integer value.
 
-<!--
+
 ### [11. Multiply by using map](./11-multiply_list_map.py)
-* Write a function that returns a list with all values multiplied by a number without using any loops.
+* A function that returns a list with all values multiplied by a number without using any loops.
 
-
+<!--
 ### [12. Roman to Integer](./12-roman_to_int.py)
 * Technical interview preparation: 
 
