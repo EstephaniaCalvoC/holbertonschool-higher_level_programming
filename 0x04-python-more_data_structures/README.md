@@ -51,11 +51,11 @@ What I learned from this project:
 ### [6. Print sorted dictionary](./6-print_sorted_dictionary.py)
 * A function that prints a dictionary by ordered keys.
 
-<!--
+
 ### [7. Update dictionary](./7-update_dictionary.py)
-* Write a function that replaces or adds key/value in a dictionary.
+* A function that replaces or adds key/value in a dictionary.
 
-
+<!--
 ### [8. Simple delete by key](./8-simple_delete.py)
 * Write a function that deletes a key in a dictionary.
 
