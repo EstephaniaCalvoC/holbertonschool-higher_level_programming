@@ -55,11 +55,11 @@ What I learned from this project:
 ### [7. Update dictionary](./7-update_dictionary.py)
 * A function that replaces or adds key/value in a dictionary.
 
-<!--
+
 ### [8. Simple delete by key](./8-simple_delete.py)
-* Write a function that deletes a key in a dictionary.
+* A function that deletes a key in a dictionary.
 
-
+<!--
 ### [9. Multiply by 2](./9-multiply_by_2.py)
 * Write a function that returns a new dictionary with all values multiplied by 2
 
