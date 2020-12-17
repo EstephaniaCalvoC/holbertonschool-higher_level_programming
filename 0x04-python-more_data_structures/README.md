@@ -47,11 +47,11 @@ What I learned from this project:
 ### [5. Number of keys](./5-number_keys.py)
 * A function that returns the number of keys in a dictionary.
 
-<!--
+
 ### [6. Print sorted dictionary](./6-print_sorted_dictionary.py)
-* Write a function that prints a dictionary by ordered keys.
+* A function that prints a dictionary by ordered keys.
 
-
+<!--
 ### [7. Update dictionary](./7-update_dictionary.py)
 * Write a function that replaces or adds key/value in a dictionary.
 
