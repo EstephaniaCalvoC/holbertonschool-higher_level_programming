@@ -43,11 +43,11 @@ What I learned from this project:
 ### [4. Only differents](./4-only_diff_elements.py)
 * A function that returns a set of all elements present in only one set.
 
-<!--
+
 ### [5. Number of keys](./5-number_keys.py)
-* Write a function that returns the number of keys in a dictionary.
+* A function that returns the number of keys in a dictionary.
 
-
+<!--
 ### [6. Print sorted dictionary](./6-print_sorted_dictionary.py)
 * Write a function that prints a dictionary by ordered keys.
 
