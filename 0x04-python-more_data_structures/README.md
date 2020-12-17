@@ -59,11 +59,11 @@ What I learned from this project:
 ### [8. Simple delete by key](./8-simple_delete.py)
 * A function that deletes a key in a dictionary.
 
-<!--
+
 ### [9. Multiply by 2](./9-multiply_by_2.py)
-* Write a function that returns a new dictionary with all values multiplied by 2
+* A function that returns a new dictionary with all values multiplied by 2
 
-
+<!--
 ### [10. Best score](./10-best_score.py)
 * Write a function that returns a key with the biggest integer value.
 
