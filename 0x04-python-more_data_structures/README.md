@@ -35,11 +35,11 @@ What I learned from this project:
 ### [2. Unique addition](./2-uniq_add.py)
 * A function that adds all unique integers in a list (only once for each integer).
 
-<!--
+
 ### [3. Present in both](./3-common_elements.py)
-* Write a function that returns a set of common elements in two sets.
+* A function that returns a set of common elements in two sets.
 
-
+<!--
 ### [4. Only differents](./4-only_diff_elements.py)
 * Write a function that returns a set of all elements present in only one set.
 
