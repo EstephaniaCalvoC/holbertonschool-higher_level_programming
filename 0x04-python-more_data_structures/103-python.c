@@ -10,7 +10,7 @@ void print_python_bytes(PyObject *p)
 	const char *type = p->ob_type->tp_name;
 	PyVarObject *obj = (PyVarObject *)p;
 	PyBytesObject *obj_bytes = (PyBytesObject *);
-	char end = ''
+	char end = '';
 
 	printf("[.] bytes object info\n");
 
@@ -54,7 +54,7 @@ void print_python_list(PyObject *p)
 
 	PyListObject *list = (PyListObject)*p;
 	PyVarObject *obj = (PyVarObject *)p;
-	PyObject *element = NULL
+	PyObject *element = NULL;
 
 	size = obj->obj_size;
 	bytes = list->allocated;
@@ -65,7 +65,7 @@ void print_python_list(PyObject *p)
 
 	for (i = 0; i < size; i++)
 	{
-		element = list->ob_item[i]
+		element = list->ob_item[i];
 		type = element->ob_type->tp_name;
 		printf("Element %d: %s\n", i, type);
 
