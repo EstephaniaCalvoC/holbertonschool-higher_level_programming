@@ -10,7 +10,6 @@ void print_python_bytes(PyObject *p)
 	const char *type = p->ob_type->tp_name;
 	PyVarObject *obj = (PyVarObject *)p;
 	PyBytesObject *obj_bytes = (PyBytesObject *)p;
-	int end = '\0';
 
 	printf("[.] bytes object info\n");
 
@@ -36,10 +35,12 @@ void print_python_bytes(PyObject *p)
 	for (i = 0; i < len; i++)
 	{
 		/*Convert to char and print*/
-		printf("%c%02hhx", end, obj_bytes->ob_sval[i]);
-		end = ' ';
+		printf("02hhx", obj_bytes->ob_sval[i]);
+		if (i < len -1)
+			printf(" ");
+		else
+			printf("\n");
 	}
-	putchar('\n');
 }
 
 /**
