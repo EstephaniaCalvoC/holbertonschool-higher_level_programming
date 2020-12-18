@@ -35,7 +35,7 @@ void print_python_bytes(PyObject *p)
 	for (i = 0; i < len; i++)
 	{
 		/*Convert to char and print*/
-		printf("02hhx", obj_bytes->ob_sval[i]);
+		printf("%02hhx", obj_bytes->ob_sval[i]);
 		if (i < len -1)
 			printf(" ");
 		else
