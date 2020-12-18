@@ -87,11 +87,11 @@ What I learned from this project:
 ### [15. Delete by value](./102-complex_delete.py)
 * A function that deletes keys with a specific value in a dictionary.
 
-<!--
-### [16. CPython #1: PyBytesObject](./103-python.c)
-* Create two C functions that print some basic info about Python lists and Python bytes objects.
 
--->
+### [16. CPython #1: PyBytesObject](./103-python.c)
+* C functions that print some basic info about Python lists and Python bytes objects.
+
+
 ---
 
 ## Author
