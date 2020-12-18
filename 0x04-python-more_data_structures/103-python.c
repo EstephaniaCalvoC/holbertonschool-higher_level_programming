@@ -6,7 +6,7 @@
  */
 void print_python_bytes(PyObject *p)
 {
-	int i, len, size;
+	long unsigned int i, len, size;
 	const char *type = p->ob_type->tp_name;
 	PyVarObject *obj = (PyVarObject *)p;
 	PyBytesObject *obj_bytes = (PyBytesObject *)p;
@@ -22,17 +22,16 @@ void print_python_bytes(PyObject *p)
 	}
 
 	/*If is an valid input*/
-	printf("  size: %ld\n", ((PyVarObject *)p)->ob_size);
-	printf("  trying string: %s\n", obj_bytes->ob_sval);
-
 	size = obj->ob_size;
+	printf("  size: %lu\n", size);
+	printf("  trying string: %s\n", obj_bytes->ob_sval);
 
 	if (size > 10)
 		len = 10;
 	else
 		len = size + 1;
 
-	printf("  first %d bytes: ", size);
+	printf("  first %lu bytes: ", size);
 
 	for (i = 0; i < len; i++)
 	{
