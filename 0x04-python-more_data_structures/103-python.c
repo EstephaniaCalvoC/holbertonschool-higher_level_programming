@@ -6,7 +6,8 @@
  */
 void print_python_bytes(PyObject *p)
 {
-	long unsigned int i, len, size;
+	unsigned char i, len;
+	long unsigned int size;
 	const char *type = p->ob_type->tp_name;
 	PyVarObject *obj = (PyVarObject *)p;
 	PyBytesObject *obj_bytes = (PyBytesObject *)p;
@@ -36,10 +37,10 @@ void print_python_bytes(PyObject *p)
 	{
 		/*Convert to char and print*/
 		printf("%02hhx", obj_bytes->ob_sval[i]);
-		if (i < len -1)
-			printf(" ");
-		else
+		if (i == len -1)
 			printf("\n");
+		else
+			printf(" ");
 	}
 }
 
