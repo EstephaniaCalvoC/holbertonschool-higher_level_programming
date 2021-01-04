@@ -35,11 +35,11 @@ What I learned from this project:
 ### [3. Integers division with debug](./3-safe_print_division.py)
 * A function that divides 2 integers and prints the result.
 
-<!--
+
 ### [4. Divide a list](./4-list_division.py)
-* Write a function that divides element by element 2 lists.
+* A function that divides element by element 2 lists.
 
-
+<!--
 ### [5. Raise exception](./5-raise_exception.py)
 * Write a function that raises a type exception.
 
