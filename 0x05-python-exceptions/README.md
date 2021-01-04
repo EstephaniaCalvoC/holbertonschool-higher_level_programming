@@ -39,11 +39,11 @@ What I learned from this project:
 ### [4. Divide a list](./4-list_division.py)
 * A function that divides element by element 2 lists.
 
-<!--
+
 ### [5. Raise exception](./5-raise_exception.py)
-* Write a function that raises a type exception.
+* A function that raises a type exception.
 
-
+<!--
 ### [6. Raise a message](./6-raise_exception_msg.py)
 * Write a function that raises a name exception with a message.
 
