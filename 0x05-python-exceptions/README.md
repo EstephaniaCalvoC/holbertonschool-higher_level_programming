@@ -47,11 +47,11 @@ What I learned from this project:
 ### [6. Raise a message](./6-raise_exception_msg.py)
 * A function that raises a name exception with a message.
 
-<!--
+
 ### [7. Safe integer print with error message](./100-safe_print_integer_err.py)
-* Write a function that prints an integer.
+* A function that prints an integer.
 
-
+<!--
 ### [8. Safe function](./101-safe_function.py)
 * Write a function that executes a function safely.  
 
@@ -64,7 +64,6 @@ What I learned from this project:
 * Create three C functions that print some basic info about Python lists, Python bytes an Python float objects.
 
 -->
----
 
 ## Author
 * **Estephania Calvo Carvajal** - [EstephaniaCalvoC](https://github.com/EstephaniaCalvoC)
