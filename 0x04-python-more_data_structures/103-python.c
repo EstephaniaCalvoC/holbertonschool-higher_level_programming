@@ -6,11 +6,12 @@
  */
 void print_python_bytes(PyObject *p)
 {
-	int i, len, size;
+	unsigned char i, len;
+	long unsigned int size;
 	const char *type = p->ob_type->tp_name;
 	PyVarObject *obj = (PyVarObject *)p;
-	PyBytesObject *obj_bytes = (PyBytesObject *);
-	char end = '';
+	PyBytesObject *obj_bytes = (PyBytesObject *)p;
+
 
 	printf("[.] bytes object info\n");
 
@@ -22,25 +23,26 @@ void print_python_bytes(PyObject *p)
 	}
 
 	/*If is an valid input*/
-	printf("  size: %ld\n", ((PyVarObject *)p)->ob_size);
-	printf("  trying string: %s\n", bytes->ob_sval);
-
-	size = obj->obj_size;
+	size = obj->ob_size;
+	printf("  size: %lu\n", size);
+	printf("  trying string: %s\n", obj_bytes->ob_sval);
 
 	if (size > 10)
 		len = 10;
 	else
 		len = size + 1;
 
-	printf("  first %d bytes: ", size);
+	printf("  first %lu bytes: ", size);
 
 	for (i = 0; i < len; i++)
 	{
 		/*Convert to char and print*/
-		printf("%c%02hhx", end, bytes->ob_sval[i]);
-		end = ' ';
+		printf("%02hhx", obj_bytes->ob_sval[i]);
+		if (i == len -1)
+			printf("\n");
+		else
+			printf(" ");
 	}
-	putchar('\n');
 }
 
 /**
@@ -52,11 +54,11 @@ void print_python_list(PyObject *p)
 	int size, bytes, i;
 	const char *type;
 
-	PyListObject *list = (PyListObject)*p;
+	PyListObject *list = (PyListObject *)p;
 	PyVarObject *obj = (PyVarObject *)p;
 	PyObject *element = NULL;
 
-	size = obj->obj_size;
+	size = obj->ob_size;
 	bytes = list->allocated;
 
 	printf("[*] Python list info\n");
