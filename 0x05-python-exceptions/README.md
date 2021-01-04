@@ -43,11 +43,11 @@ What I learned from this project:
 ### [5. Raise exception](./5-raise_exception.py)
 * A function that raises a type exception.
 
-<!--
+
 ### [6. Raise a message](./6-raise_exception_msg.py)
-* Write a function that raises a name exception with a message.
+* A function that raises a name exception with a message.
 
-
+<!--
 ### [7. Safe integer print with error message](./100-safe_print_integer_err.py)
 * Write a function that prints an integer.
 
