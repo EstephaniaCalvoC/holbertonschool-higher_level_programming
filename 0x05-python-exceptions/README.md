@@ -9,7 +9,7 @@ Read or watch:
 ## Learning Objectives:bulb:
 What I learned from this project:
 
-* Why Python programming is awesome 
+* Why Python programming is awesome
 * What’s the difference between errors and exceptions
 * What are exceptions and how to use them
 * When do we need to use exceptions
@@ -51,11 +51,11 @@ What I learned from this project:
 ### [7. Safe integer print with error message](./100-safe_print_integer_err.py)
 * A function that prints an integer.
 
-<!--
+
 ### [8. Safe function](./101-safe_function.py)
-* Write a function that executes a function safely.  
+* A function that executes a function safely.
 
-
+<!--
 ### [9. ByteCode -> Python #4](./102-magic_calculation.py)
 * Write the Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode:
 
