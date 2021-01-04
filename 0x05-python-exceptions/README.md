@@ -31,11 +31,11 @@ What I learned from this project:
 ### [2. Print and count integers](./2-safe_print_list_integers.py)
 * A function that prints the first x elements of a list and only integers.
 
-<!--
+
 ### [3. Integers division with debug](./3-safe_print_division.py)
-* Write a function that divides 2 integers and prints the result.
+* A function that divides 2 integers and prints the result.
 
-
+<!--
 ### [4. Divide a list](./4-list_division.py)
 * Write a function that divides element by element 2 lists.
 
