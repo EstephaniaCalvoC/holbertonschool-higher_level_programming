@@ -4,6 +4,7 @@ Define a class MagicClass.
 Classes:
 MagicClass
 '''
+
 import math
 
 
@@ -40,9 +41,13 @@ class MagicClass():
     def area(self):
         '''Calculate circle's area'''
 
-        return math.pi * 2 ** self.__raduis
+        return math.pi * 2 ** self.__radius
 
     def circunference(self):
         '''Calculate circle's perimeter'''
 
         return math.pi * 2 * self.__radius
+
+c = MagicClass(5)
+print(c.area())
+print(c.circunference())
