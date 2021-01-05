@@ -34,20 +34,17 @@ class MagicClass():
                 radius of the square, number positive for default is 0.
         '''
 
-        if type(radius) is not float and type(radius) is not int:
-            raise TypeError("radius must be a number")
+        if type(radius) is not int and type(radius) is not float:
+            raise TypeError('radius must be a number')
         self.__radius = radius
+        return None
 
     def area(self):
         '''Calculate circle's area'''
 
-        return math.pi * 2 ** self.__radius
+        return math.pi * self.__radius ** 2
 
-    def circunference(self):
+    def circumference(self):
         '''Calculate circle's perimeter'''
 
-        return math.pi * 2 * self.__radius
-
-c = MagicClass(5)
-print(c.area())
-print(c.circunference())
+        return 2 * math.pi * self.__radius
