@@ -43,11 +43,11 @@ What I learned from this project:
 ### [1. Square with size](./1-square.py)
 * A class Square that defines a square with its size.
 
-<!---
+
 ### [2. Size validation](./2-square.py)
-* Write a class Square that defines a square by: (based on 1-square.py)
+* A class Square that defines a square by: (based on 1-square.py)
 
-
+<!---
 ### [3. Area of a square](./3-square.py)
 * Write a class Square that defines a square by: (based on 2-square.py)
 
