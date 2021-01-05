@@ -90,6 +90,9 @@ class Square():
             return
 
         sep = " " if self.__position[0] > 0 else ""
+        top = "\n" * self.__position[1] if self.__position[1] > 0 else ""
+
+        print("{}".format(top), end="")
 
         for i in range(self.__size):
             print("{}{}".format(sep * self.__position[0], "#" * self.__size))
