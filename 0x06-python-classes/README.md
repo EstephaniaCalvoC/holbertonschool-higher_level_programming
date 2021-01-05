@@ -13,7 +13,7 @@ Read or watch:
 ## Learning Objectives:bulb:
 What I learned from this project:
 
-* Why Python programming is awesome 
+* Why Python programming is awesome
 * What is OOP
 * “first-class everything”
 * What is a class
@@ -37,13 +37,13 @@ What I learned from this project:
 ---
 
 ### [0. My first square](./0-square.py)
-* An empty class Square that defines a square:
+* An empty class Square that defines a square.
+
+
+### [1. Square with size](./1-square.py)
+* A class Square that defines a square with its size.
 
 <!---
-### [1. Square with size](./1-square.py)
-* Write a class Square that defines a square by: (based on 0-square.py)
-
-
 ### [2. Size validation](./2-square.py)
 * Write a class Square that defines a square by: (based on 1-square.py)
 
