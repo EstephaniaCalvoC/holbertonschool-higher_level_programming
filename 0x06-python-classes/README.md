@@ -66,12 +66,12 @@ What I learned from this project:
 <!--
 ### [7. Singly linked list](./100-singly_linked_list.py)
 * Write a class Node that defines a node of a singly linked list by: 
-
+-->
 
 ### [8. Print Square instance](./101-square.py)
-* Write a class Square that defines a square by: (based on 6-square.py)
+* A class Square that defines a square by: (based on 6-square.py)
 
-
+<!--
 ### [9. Compare 2 squares](./102-square.py)
 * Write a class Square that defines a square by: (based on 4-square.py)
 -->
