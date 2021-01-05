@@ -36,11 +36,10 @@ What I learned from this project:
 
 ---
 
-<!---
 ### [0. My first square](./0-square.py)
-* Write an empty class Square that defines a square:
+* An empty class Square that defines a square:
 
-
+<!---
 ### [1. Square with size](./1-square.py)
 * Write a class Square that defines a square by: (based on 0-square.py)
 
