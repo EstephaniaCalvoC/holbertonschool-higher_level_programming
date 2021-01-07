@@ -19,11 +19,11 @@ What I learned from this project:
 * How to find edge cases
 
 ---
-<!---
+
 ### [0. Integers addition](./0-add_integer.py)
-* Write a function that adds 2 integers.
+* A function that adds 2 integers.
 
-
+<!---
 ### [1. Divide a matrix](./2-matrix_divided.py)
 * Write a function that divides all elements of a matrix.
 
