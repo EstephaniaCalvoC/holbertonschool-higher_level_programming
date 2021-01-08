@@ -1,0 +1,57 @@
+===============================
+How use 4-print_square function
+===============================
+
+=====
+Usage
+=====
+
+Import the function:
+
+    >>> print_square = __import__('4-print_square').print_square
+
+Test for Success Cases:
+
+    >>> print_square(4)
+    ####
+    ####
+    ####
+    ####
+    
+    >>> print_square(0)
+    <BLANKLINE>
+
+Test Error Cases:
+
+    >>> import sys
+    >>> def errorMesage(input_wrong):
+    ...     """Return an exception if is raised"""
+    ...     try:
+    ...             return print_square(input_wrong[0])
+    ...     except:
+    ...             return str(sys.exc_info()[1])
+    ...
+    >>>
+
+    >>> def identifyError(error):
+    ...     """Identify a custum error and return its number identifier"""
+    ...     if error == str(TypeError("size must be an integer")):
+    ...             return 1
+    ...     elif error == str(ValueError("size must be >= 0")):
+    ...             return 2
+    ...     else:
+    ...             return 0
+    ...
+    >>>
+
+    >>> e1 = [["Flor"], [None], [True], [3.1], [-2.9]]
+    >>> e2 = [[-1]]
+    >>> error_cases = e1 + e2
+
+    >>> l_errors = [errorMesage(l) for l in error_cases]
+    >>> [identifyError(e) for e in l_errors]
+    [1, 1, 1, 1, 1, 2]
+
+    >>> print_square()
+    Traceback (most recent call last):
+    TypeError: print_square() missing 1 required positional argument: 'size'
