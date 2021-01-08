@@ -23,11 +23,11 @@ What I learned from this project:
 ### [0. Integers addition](./0-add_integer.py)
 * A function that adds 2 integers.
 
-<!---
+
 ### [1. Divide a matrix](./2-matrix_divided.py)
-* Write a function that divides all elements of a matrix.
+* A function that divides all elements of a matrix.
 
-
+<!---
 ### [2. Say my name](./3-say_my_name.py)
 * Write a function that prints My name is <first name> <last name>
 

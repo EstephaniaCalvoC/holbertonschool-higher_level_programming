@@ -1,0 +1,67 @@
+=================================
+How use 2-matrix_divided function
+=================================
+
+=====
+Usage
+=====
+
+Import the function:
+
+    >>> matrix_divided = __import__('2-matrix_divided').matrix_divided
+
+Test for Success Cases:
+
+Tests for Positive Numbers.
+
+    >>> valid_matrix = [[1, 2, -3],[4, -5, 6], [10.5, -9.2, 7]]
+    >>> s1 = [[valid_matrix, 3], [valid_matrix, -2.5], [[[]], 9]]
+    >>> [matrix_divided(l[0], l[1]) for l in s1]
+    [[[0.33, 0.67, -1.0], [1.33, -1.67, 2.0], [3.5, -3.07, 2.33]], [[-0.4, -0.8, 1.2], [-1.6, 2.0, -2.4], [-4.2, 3.68, -2.8]], [[]]]
+
+Test Error Cases.
+
+    >>> import sys
+    >>> def errorMesage(input_wrong):
+    ...     """Return an exception if is raised"""
+    ...     try:
+    ...             return matrix_divided(input_wrong[0], input_wrong[1])
+    ...     except:
+    ...             return str(sys.exc_info()[1])
+    ...
+    >>>
+
+    >>> def identifyError(error):
+    ...     """Identify a custum error and return its number identifier"""
+    ...     if error == str(TypeError("matrix must be a matrix (list of lists) of integers/floats")):
+    ...             return 1
+    ...     elif error == str(TypeError("Each row of the matrix must have the same size")):
+    ...             return 2
+    ...     elif error == str(TypeError("div must be a number")):
+    ...             return 3
+    ...     elif error == str(ZeroDivisionError("division by zero")):
+    ...             return 4
+    ...     else:
+    ...             return 0
+    ...
+    >>>
+
+    >>> invalid_matrix_1 = [["Carlos", 2, -3],[4, -5, 6], [10.5, -9.2, 7]]
+    >>> invalid_matrix_2 = [[2, -3],[4, -5, 6], [10.5, -9.2, 7]]
+    >>> e1 = [[invalid_matrix_1, 2], ["matrix", 9], [[1, 2, 3], 8], [None, 4]]
+    >>> e2 = [[invalid_matrix_2, 8]]
+    >>> e3 = [[valid_matrix, "gatos"], [valid_matrix, None], [valid_matrix, "True"]]
+    >>> e4 = [[valid_matrix, 0]]
+    >>> error_cases = e1 + e2 + e3 + e4
+
+    >>> l_errors = [errorMesage(l) for l in error_cases]
+    >>> [identifyError(e) for e in l_errors]
+    [1, 1, 1, 1, 2, 3, 3, 3, 4]
+
+    >>> matrix_divided(valid_matrix)
+    Traceback (most recent call last):
+    TypeError: matrix_divided() missing 1 required positional argument: 'div'
+
+    >>> matrix_divided()
+    Traceback (most recent call last):
+    TypeError: matrix_divided() missing 2 required positional arguments: 'matrix' and 'div'
