@@ -27,11 +27,11 @@ What I learned from this project:
 ### [1. Divide a matrix](./2-matrix_divided.py)
 * A function that divides all elements of a matrix.
 
-<!---
+
 ### [2. Say my name](./3-say_my_name.py)
-* Write a function that prints My name is <first name> <last name>
+* A function that prints My name is <first name> <last name>
 
-
+<!---
 ### [3. Print square](./4-print_square.py)
 * Write a function that prints a square with the character #.
 
