@@ -16,7 +16,7 @@ def matrix_divided(matrix, div):
         ZeroDivisionError: When div is 0.
     """
 
-    #Validated inputs
+    # Validated inputs
 
     msg1 = "matrix must be a matrix (list of lists) of integers/floats"
     msg2 = "Each row of the matrix must have the same size"
