@@ -39,11 +39,11 @@ What I learned from this project:
 ### [4. Text indentation](./5-text_indentation.py)
 * A function that prints a text with 2 new lines after each of these characters: '.', '?' and ':'
 
-<!---
+
 ### [5. Max integer - Unittest](./tests/6-max_integer_test.py)
-* Since the beginning you have been creating “Interactive tests”. For this exercise, you will add Unittests.
+*  Unittests for the function max_integer(list=[]).
 
-
+<!---
 ### [6. Matrix multiplication](./100-matrix_mul.py)
 * Write a function that multiplies 2 matrices:
 
