@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Define function say_my_name"""
 
+
 def say_my_name(first_name, last_name=""):
     """
     Prints My name is <first name> <last name>
@@ -13,7 +14,7 @@ def say_my_name(first_name, last_name=""):
         TypeError: When last_name is not a string.
     """
 
-    #Validated inputs
+    # Validated inputs
     msg1 = "first_name must be a string"
     msg2 = "last_name must be a string"
 
