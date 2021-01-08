@@ -1,0 +1,58 @@
+===================================
+How use 5-text_indentation function
+===================================
+
+=====
+Usage
+=====
+
+Import the function:
+
+    >>> text_indentation = __import__('5-text_indentation').text_indentation
+
+Test for Success Cases:
+
+    >>> text_indentation("              Where are you from?                    Dear Soren: Bye.            ")
+    Where are you from?
+    <BLANKLINE>
+    Dear Soren:
+    <BLANKLINE>
+    Bye.
+    <BLANKLINE>
+
+    >>> text_indentation("   \n new \n line\n")
+    <BLANKLINE>
+    new
+    line
+
+    >>> text_indentation("       ")
+
+    >>> text_indentation("")
+
+Test Error Cases:
+
+    >>> import sys
+    >>> def errorMesage(input_wrong):
+    ...     """Return an exception if is raised"""
+    ...     try:
+    ...             return text_indentation(input_wrong[0])
+    ...     except:
+    ...             return str(sys.exc_info()[1])
+    ...
+    >>>
+
+    >>> def identifyError(error):
+    ...     """Identify a custum error and return its number identifier"""
+    ...     if error == str(TypeError("text must be a string")):
+    ...             return 1
+    ...     else:
+    ...             return 0
+    ...
+    >>>
+
+    >>> e1 = [[-90], [None], [False]]
+    >>> error_cases = e1
+
+    >>> l_errors = [errorMesage(l) for l in error_cases]
+    >>> [identifyError(e) for e in l_errors]
+    [1, 1, 1]
