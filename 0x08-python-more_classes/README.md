@@ -61,11 +61,11 @@ What I lerned from this project:
 ### [4. Eval is magic](./4-rectangle.py)
 * A class Rectangle that defines a rectangle v.4
 
-<!--
+
 ### [5. Detect instance deletion](./5-rectangle.py)
-* Write a class Rectangle that defines a rectangle by: (based on 4-rectangle.py)
+* A class Rectangle that defines a rectangle v.5
 
-
+<!--
 ### [6. How many instances](./6-rectangle.py)
 * Write a class Rectangle that defines a rectangle by: (based on 5-rectangle.py)
 
