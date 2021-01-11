@@ -69,11 +69,11 @@ What I lerned from this project:
 ### [6. How many instances](./6-rectangle.py)
 * A class Rectangle that defines a rectangle v.6
 
-<!--
+
 ### [7. Change representation](./7-rectangle.py)
-* Write a class Rectangle that defines a rectangle by: (based on 6-rectangle.py)
+* A class Rectangle that defines a rectangle v.7
 
-
+<!--
 ### [8. Compare rectangles](./8-rectangle.py)
 * Write a class Rectangle that defines a rectangle by: (based on 7-rectangle.py)
 
