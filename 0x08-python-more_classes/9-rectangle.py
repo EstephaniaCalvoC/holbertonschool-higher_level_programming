@@ -134,7 +134,7 @@ class Rectangle():
         """
         Create a Square object whit the class Rectangle
         Parameters:
-            size: Size of Square object.
+            size (int): Size of Square object.
         """
 
-        return cls(size, size)
+        return (cls(size, size))
