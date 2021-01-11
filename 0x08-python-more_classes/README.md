@@ -77,10 +77,10 @@ What I lerned from this project:
 ### [8. Compare rectangles](./8-rectangle.py)
 * A class Rectangle that defines a rectangle v.8
 
-<!--
+
 ### [9. A square is a rectangle](./9-rectangle.py)
-* Write a class Rectangle that defines a rectangle by: (based on 8-rectangle.py)
--->
+* A class Rectangle that defines a rectangle v.9
+
 ---
 
 ## Author
