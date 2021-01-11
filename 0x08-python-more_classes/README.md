@@ -41,11 +41,11 @@ What I lerned from this project:
 * How to use the getattr function
 
 ---
-<!---
+
 ### [0. Simple rectangle](./0-rectangle.py)
-* Write an empty class Rectangle that defines a rectangle:
+* A empty class Rectangle that defines a rectangle:
 
-
+<!--
 ### [1. Real definition of a rectangle](./1-rectangle.py)
 * Write a class Rectangle that defines a rectangle by: (based on 0-rectangle.py)
 
