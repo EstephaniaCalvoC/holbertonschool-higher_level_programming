@@ -28,8 +28,9 @@ class Rectangle():
             width (int): Width of Rectangle object.
             height (int): Height of Rectangle object.
         """
-        self.height = height
+
         self.width = width
+        self.height = height
         type(self).number_of_instances += 1
 
     @property
@@ -51,7 +52,7 @@ class Rectangle():
 
     @property
     def height(self):
-        """Getter and setter of width."""
+        """Getter and setter of height."""
         return self.__height
 
     @height.setter
