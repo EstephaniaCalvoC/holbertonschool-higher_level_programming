@@ -49,11 +49,11 @@ What I lerned from this project:
 ### [1. Real definition of a rectangle](./1-rectangle.py)
 * A class Rectangle that defines a rectangle v.1
 
-<!--
+
 ### [2. Area and Perimeter](./2-rectangle.py)
-* Write a class Rectangle that defines a rectangle by: (based on 1-rectangle.py)
+* A class Rectangle that defines a rectangle v.2
 
-
+<!--
 ### [3. String representation](./3-rectangle.py)
 * Write a class Rectangle that defines a rectangle by: (based on 2-rectangle.py)
 
