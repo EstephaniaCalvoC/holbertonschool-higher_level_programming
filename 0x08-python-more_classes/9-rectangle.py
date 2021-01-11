@@ -28,9 +28,9 @@ class Rectangle():
             width (int): Width of Rectangle object.
             height (int): Height of Rectangle object.
         """
-        type(self).number_of_instances += 1
         self.height = height
         self.width = width
+        type(self).number_of_instances += 1
 
     @property
     def width(self):
@@ -65,6 +65,37 @@ class Rectangle():
             raise ValueError("height must be >= 0")
 
         self.__height = value
+
+    @staticmethod
+    def bigger_or_equal(rect_1, rect_2):
+        """
+        Return the biggest rectangle based on the area.
+        Parameters:
+            rect_1: Rectangle 1.
+            rect_2: Rectangle 2.
+        """
+
+        if type(rect_1) != Rectangle:
+            raise TypeError("rect_1 must be an instance of Rectangle")
+        if type(rect_2) != Rectangle:
+            raise TypeError("rect_2 must be an instance of Rectangle")
+
+        area_1 = rect_1.area()
+        area_2 = rect_2.area()
+
+        if area_1 == area_2 or area_1 > area_2:
+            return rect_1
+        return rect_2
+
+    @classmethod
+    def square(cls, size=0):
+        """
+        Create a Square object whit the class Rectangle
+        Parameters:
+            size (int): Size of Square object.
+        """
+
+        return (cls(size, size))
 
     def area(self):
         """Return the area of a Rectangle object."""
@@ -107,34 +138,3 @@ class Rectangle():
 
         type(self).number_of_instances -= 1
         print("Bye rectangle...")
-
-    @staticmethod
-    def bigger_or_equal(rect_1, rect_2):
-        """
-        Return the biggest rectangle based on the area.
-        Parameters:
-            rect_1: Rectangle 1.
-            rect_2: Rectangle 2.
-        """
-
-        if type(rect_1) != Rectangle:
-            raise TypeError("rect_1 must be an instance of Rectangle")
-        if type(rect_2) != Rectangle:
-            raise TypeError("rect_2 must be an instance of Rectangle")
-
-        area_1 = rect_1.area()
-        area_2 = rect_2.area()
-
-        if area_1 == area_2 or area_1 > area_2:
-            return rect_1
-        return rect_2
-
-    @classmethod
-    def square(cls, size=0):
-        """
-        Create a Square object whit the class Rectangle
-        Parameters:
-            size (int): Size of Square object.
-        """
-
-        return (cls(size, size))
