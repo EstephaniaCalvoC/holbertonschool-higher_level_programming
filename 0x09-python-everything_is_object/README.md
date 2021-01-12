@@ -192,16 +192,20 @@ b = 1
 * [line2](./103-line2.txt): How many int objects are created by the execution of the second line of the script?
 
 
-<!--
+
 ### [33. int 2/3](./105-line1.txt)
-* julien@ubuntu:/python3$ cat int.py 
+```
 a = 1024
 b = 1024
 del a
 del b
 c = 1024
-julien@ubuntu:/python3$ 
-
+```
+* [line1](./104-line1.txt): How many int objects are created by the execution of the first line of the script?
+* [line2](./104-line2.txt): How many int objects are created by the execution of the second line of the script?
+* [line3](./104-line3.txt): After the execution of line 3, is the int object pointed by a deleted?
+* [line4](./104-line4.txt): After the execution of line 4, is the int object pointed by b deleted?
+* [line5](./104-line5.txt): How many int objects are created by the execution of the last line of the script?
 
 -->
 ### [34. int 3/3](./106-line1.txt)
