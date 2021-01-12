@@ -61,11 +61,11 @@ What I learned from this project:
 ### [7. Is the same](./7-answer.txt)
 * If s1 = s2, what do print s1 is s2?
 
-<!--
+
 ### [8. Is really equal](./8-answer.txt)
-* What do these 3 lines print?
+* If s1 = "C" and s2 = "C", what do print s1 == s2?
 
-
+<!--
 ### [9. Is really the same](./9-answer.txt)
 * What do these 3 lines print?
 
