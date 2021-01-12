@@ -81,19 +81,19 @@ What I learned from this project:
 ### [12. And with a list, is it really equal](./12-answer.txt)
 * If l1 = [1] and l2 = l1, what do print l1 == l2?
 
-<!--
+
 ### [13. And with a list, is it really the same](./13-answer.txt)
-* What do these 3 lines print?
+* If l1 = [1] and l2 = l1, what do print l1 is l2?
 
 
 ### [14. List append](./14-answer.txt)
-* What does this script print?
+* If l1 = [1] and l2 = l1, and l1.append(2), what do print l2??
 
 
 ### [15. List add](./15-answer.txt)
-* What does this script print?
+* * If l1 = [1] and l2 = l1, and l1 = l1 + [2], what do print l2??
 
-
+<!--
 ### [16. Integer incrementation](./16-answer.txt)
 * What does this script print?
 
