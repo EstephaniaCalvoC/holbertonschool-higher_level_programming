@@ -65,11 +65,11 @@ What I learned from this project:
 ### [8. Is really equal](./8-answer.txt)
 * If s1 = "C" and s2 = "C", what do print s1 == s2?
 
-<!--
+
 ### [9. Is really the same](./9-answer.txt)
-* What do these 3 lines print?
+* If s1 = "C" and s2 = "C", what do print s1 is s2?
 
-
+<!--
 ### [10. And with a list, is it equal](./10-answer.txt)
 * What do these 3 lines print?
 
