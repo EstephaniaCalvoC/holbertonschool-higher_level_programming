@@ -69,11 +69,11 @@ What I learned from this project:
 ### [9. Is really the same](./9-answer.txt)
 * If s1 = "C" and s2 = "C", what do print s1 is s2?
 
-<!--
+
 ### [10. And with a list, is it equal](./10-answer.txt)
-* What do these 3 lines print?
+* If l1 = [1] and l2 = [1], what do print l1 == l2?
 
-
+<!--
 ### [11. And with a list, is it the same](./11-answer.txt)
 * What do these 3 lines print?
 
