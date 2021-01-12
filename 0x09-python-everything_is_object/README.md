@@ -178,11 +178,11 @@ What I learned from this project:
 ### [30. #pythonic](./101-locked_class.py)
 * A function magic_string() that returns a string “Holberton” n times the number of the iteration.
 
-<!--
+
 ### [31. Low memory cost](./103-line1.txt)
-* Write a class LockedClass with no class or object attribute, that prevents the user from dynamically creating new instance attributes, except if the new instance attribute is called first_name.
+* A class LockedClass with no class or object attribute, that prevents the user from dynamically creating new instance attributes, except if the new instance attribute is called first_name.
 
-
+<!--
 ### [32. int 1/3](./104-line1.txt)
 * julien@ubuntu:/python3$ cat int.py 
 a = 1
