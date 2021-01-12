@@ -29,11 +29,11 @@ What I learned from this project:
 * How does Python pass variables to functions
 
 ---
-<!--
+
 ### [0. Who am I?](./0-answer.txt)
 * What function would you use to print the type of an object?
 
-
+<!--
 ### [1. Where are you?](./1-answer.txt)
 * How do you get the variable identifier (which is the memory address in the CPython implementation)?
 
