@@ -87,25 +87,37 @@ What I learned from this project:
 
 
 ### [14. List append](./14-answer.txt)
-* If l1 = [1] and l2 = l1, and l1.append(2), what do print l2??
+* If l1 = [1, 2, 3] and l2 = l1, and l1.append(2), what do print l2??
 
 
 ### [15. List add](./15-answer.txt)
-* * If l1 = [1] and l2 = l1, and l1 = l1 + [2], what do print l2??
+* * If l1 = [1, 2, 3] and l2 = l1, and l1 = l1 + [2], what do print l2??
 
-<!--
+
 ### [16. Integer incrementation](./16-answer.txt)
-* What does this script print?
+* If a = 1 and increment(a), what print a?
+  ```python
+  def incremente(n):
+      n += 1
+  ```
 
 
 ### [17. List incrementation](./17-answer.txt)
-* What does this script print?
+* If l = [1, 2, 3, 4] and increment(l), what print l?
+  ```python
+  def incremente(n):
+      n.append(4)
+  ```
 
 
 ### [18. List assignation](./18-answer.txt)
-* What does this script print?
+* If l1 = [1, 2, 3, 4] and l2 = [4, 5, 6] and assign_value(l1, l2), wat do print l1?
+  ```python
+  def incremente(n):
+      n.append(4)
+  ```
 
-
+<!--
 ### [19. Copy a list object](./19-copy_list.py)
 * Write a function def copy_list(l): that returns a copy of a list.
 
