@@ -47,14 +47,13 @@ What I learned from this project:
 
 
 ### [4. Right count =](./4-answer.txt)
-* a = 89 and b = 89 point to the same object?
+* a = 89 and b = a point to the same object?
+
+
+### [5. Right count =+](./5-answer.txt)
+* a = 89 and b = a + 1 point to the same object?
 
 <!--
-### [5. Right count =+](./5-answer.txt)
-* In the following code, do a and b point to the same object?
-Answer with Yes or No.
-
-
 ### [6. Is equal](./6-answer.txt)
 * What do these 3 lines print?
 
