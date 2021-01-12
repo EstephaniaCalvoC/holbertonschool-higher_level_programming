@@ -211,6 +211,20 @@ print("Love")
 print("Python")
 julien@ubuntu:/tmp/so$
 -->
+
+### 35. Clear strings
+```python
+a = "HBTN"
+b = "HBTN"
+del a
+del b
+c = "HBTN"
+```
+* [line1](./106-line1.txt): How many string objects are created by the execution of the first line of the script?
+* [line2](./106-line2.txt): How many string objects are created by the execution of the second line of the script 
+* [line3](./106-line3.txt): After the execution of line 3, is the string object pointed by a deleted?
+* [line4](./106-line4.txt): After the execution of line 4, is the string object pointed by b deleted?
+* [line5](./106-line5.txt): How many string objects are created by the execution of the last line of the script?
 ---
 
 ## Author
