@@ -53,11 +53,11 @@ What I learned from this project:
 ### [5. Right count =+](./5-answer.txt)
 * a = 89 and b = a + 1 point to the same object?
 
-<!--
+
 ### [6. Is equal](./6-answer.txt)
-* What do these 3 lines print?
+* If s1 = s2, what do print s1 == s2?
 
-
+<!--
 ### [7. Is the same](./7-answer.txt)
 * What do these 3 lines print?
 
