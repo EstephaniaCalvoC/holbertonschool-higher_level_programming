@@ -121,27 +121,27 @@ What I learned from this project:
 ### [19. Copy a list object](./19-copy_list.py)
 * A function def copy_list(l): that returns a copy of a list.
 
-<!--
+
 ### [20. Tuple or not?](./20-answer.txt)
-* a = ()
+* If a = (), a is a tuple?
 
 
 
 ### [21. Tuple or not?](./21-answer.txt)
-* a = (1, 2)
+* If a = (1, 2), a is a tuple?
 
 
 
 ### [22. Tuple or not?](./22-answer.txt)
-* a = (1)
+* If a = (1), a is tuple?
 
 
 
 ### [23. Tuple or not?](./23-answer.txt)
-* a = (1, )
+* If a = (1, ), a is tuple?
 
 
-
+<!--
 ### [24. Who I am?](./24-answer.txt)
 * What does this script print?
 
