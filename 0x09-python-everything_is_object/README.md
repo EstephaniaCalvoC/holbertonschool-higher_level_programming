@@ -141,43 +141,76 @@ What I learned from this project:
 * If a = (1, ), a is tuple?
 
 
-<!--
+
 ### [24. Who I am?](./24-answer.txt)
-* What does this script print?
+*  If a = (1) and b = (1), what do print a is b?
 
 
 ### [25. Tuple or not](./25-answer.txt)
-* What does this script print?
+* If a = (1, 2) and b = (1, 2), what do print a is b?
 
 
 ### [26. Empty is not empty](./26-answer.txt)
-* What does this script print?
+* If a = () and b = (), what do print a is b?
 
 
 ### [27. Still the same?](./27-answer.txt)
-* >>> id(a)
+```python
+>>> id(a)
 139926795932424
 >>> a
 [1, 2, 3, 4]
 >>> a = a + [5]
 >>> id(a)
-
+```
 
 
 ### [28. Same or not?](./28-answer.txt)
-* >>> a
+```python
+>>> a
 [1, 2, 3]
 >>> id (a)
 139926795932424
 >>> a += [4]
 >>> id(a)
+```
+
+<!--
+
+### [30. #pythonic](./101-locked_class.py)
+* Write a function magic_string() that returns a string “Holberton” n times the number of the iteration (see code):
+
+
+### [31. Low memory cost](./103-line1.txt)
+* Write a class LockedClass with no class or object attribute, that prevents the user from dynamically creating new instance attributes, except if the new instance attribute is called first_name.
+
+
+### [32. int 1/3](./104-line1.txt)
+* julien@ubuntu:/python3$ cat int.py 
+a = 1
+b = 1
+julien@ubuntu:/python3$ 
 
 
 
-### [29. Python3: Mutable, Immutable... everything is object!](./106-line1.txt)
-* Write a blog post about everything you just learned / this project is covering. Your blog post should be articulated this way (one paragraph per item):
+### [33. int 2/3](./105-line1.txt)
+* julien@ubuntu:/python3$ cat int.py 
+a = 1024
+b = 1024
+del a
+del b
+c = 1024
+julien@ubuntu:/python3$ 
+
+
+
+### [34. int 3/3](./106-line1.txt)
+* julien@twix:/tmp/so$ cat int.py 
+print("I")
+print("Love")
+print("Python")
+julien@ubuntu:/tmp/so$
 -->
-
 ---
 
 ## Author
