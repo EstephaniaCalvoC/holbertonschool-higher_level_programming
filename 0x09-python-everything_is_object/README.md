@@ -77,11 +77,11 @@ What I learned from this project:
 ### [11. And with a list, is it the same](./11-answer.txt)
 * If l1 = [1] and l2 = [1], what do print l1 is l2?
 
-<!--
+
 ### [12. And with a list, is it really equal](./12-answer.txt)
-* What do these 3 lines print?
+* If l1 = [1] and l2 = l1, what do print l1 == l2?
 
-
+<!--
 ### [13. And with a list, is it really the same](./13-answer.txt)
 * What do these 3 lines print?
 
