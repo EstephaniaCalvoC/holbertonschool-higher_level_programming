@@ -182,15 +182,17 @@ What I learned from this project:
 ### [31. Low memory cost](./103-line1.txt)
 * A class LockedClass with no class or object attribute, that prevents the user from dynamically creating new instance attributes, except if the new instance attribute is called first_name.
 
-<!--
+
 ### [32. int 1/3](./104-line1.txt)
-* julien@ubuntu:/python3$ cat int.py 
+```
 a = 1
 b = 1
-julien@ubuntu:/python3$ 
+```
+* [line1](./103-line1.txt): How many int objects are created by the execution of the first line of the script? 
+* [line2](./103-line2.txt): How many int objects are created by the execution of the second line of the script?
 
 
-
+<!--
 ### [33. int 2/3](./105-line1.txt)
 * julien@ubuntu:/python3$ cat int.py 
 a = 1024
