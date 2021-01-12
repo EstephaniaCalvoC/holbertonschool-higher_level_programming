@@ -117,11 +117,11 @@ What I learned from this project:
       n.append(4)
   ```
 
-<!--
+
 ### [19. Copy a list object](./19-copy_list.py)
-* Write a function def copy_list(l): that returns a copy of a list.
+* A function def copy_list(l): that returns a copy of a list.
 
-
+<!--
 ### [20. Tuple or not?](./20-answer.txt)
 * a = ()
 
