@@ -201,14 +201,14 @@ c = 1024
 julien@ubuntu:/python3$ 
 
 
-
+-->
 ### [34. int 3/3](./106-line1.txt)
-* julien@twix:/tmp/so$ cat int.py 
+```python
 print("I")
 print("Love")
 print("Python")
-julien@ubuntu:/tmp/so$
--->
+```
+* [line1](./105-line1.txt): Before the execution of line 2 (print("Love")), how many int objects have been created and are still in memory?
 
 ### 35. Clear strings
 ```python
