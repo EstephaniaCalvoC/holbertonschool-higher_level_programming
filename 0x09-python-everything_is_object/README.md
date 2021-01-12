@@ -45,12 +45,11 @@ What I learned from this project:
 ### [3. Right count =](./3-answer.txt)
 * a = 89 and b = 89 point to the same object?
 
-<!--
+
 ### [4. Right count =](./4-answer.txt)
-* In the following code, do a and b point to the same object?
-Answer with Yes or No.
+* a = 89 and b = 89 point to the same object?
 
-
+<!--
 ### [5. Right count =+](./5-answer.txt)
 * In the following code, do a and b point to the same object?
 Answer with Yes or No.
