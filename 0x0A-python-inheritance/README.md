@@ -41,11 +41,11 @@ What I learned from this project:
 ### [3. Same class or inherit from](./3-is_kind_of_class.py)
 * A function that returns True if the object is an instance of, or if the object is an instance of a class that inherited from, the specified class ; otherwise False.
 
-<!--
+
 ### [4. Only sub class of](./4-inherits_from.py)
-* Write a function that returns True if the object is an instance of a class that inherited (directly or indirectly) from the specified class ; otherwise False.
+* A function that returns True if the object is an instance of a class that inherited (directly or indirectly) from the specified class ; otherwise False.
 
-
+<!--
 ### [5. Geometry module](./5-base_geometry.py)
 * Write an empty class BaseGeometry.
 
