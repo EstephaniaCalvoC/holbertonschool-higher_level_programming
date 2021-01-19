@@ -61,12 +61,11 @@ What I learned from this project:
 ### [8. Rectangle](./8-rectangle.py)
 * A class Rectangle that inherits from BaseGeometry v0.
 
-<!--
+
 ### [9. Full rectangle](./9-rectangle.py)
-* Write a class Rectangle that inherits from BaseGeometry (7-base_geometry.py).
-(task based on 8-rectangle.py)
+* A class Rectangle that inherits from BaseGeometry v1.
 
-
+<!--
 ### [10. Square #1](./10-square.py)
 * Write a class Square that inherits from Rectangle (9-rectangle.py):
 
