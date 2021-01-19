@@ -33,7 +33,7 @@ Test for Success Cases:
     >>> list2.print_sorted()
     []
 
-    --------------------
+--------------------
 PEP8 STYLE
 --------------------
 
