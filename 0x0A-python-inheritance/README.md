@@ -73,11 +73,11 @@ What I learned from this project:
 ### [11. Square #2](./11-square.py)
 * A class Square that inherits from Rectangle v1.
 
-<!--
+
 ### [12. My integer](./100-my_int.py)
-* Write a class MyInt that inherits from int:
+* A class MyInt that inherits from int.
 
-
+<!--
 ### [13. Can I?](./101-add_attribute.py)
 * Write a function that adds a new attribute to an object if it’s possible:
 -->
