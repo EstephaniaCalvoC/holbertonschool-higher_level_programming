@@ -77,10 +77,10 @@ What I learned from this project:
 ### [12. My integer](./100-my_int.py)
 * A class MyInt that inherits from int.
 
-<!--
+
 ### [13. Can I?](./101-add_attribute.py)
-* Write a function that adds a new attribute to an object if it’s possible:
--->
+* A function that adds a new attribute to an object if it’s possible.
+
 ---
 
 ## Author
