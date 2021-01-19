@@ -25,11 +25,11 @@ What I learned from this project:
 * What are, when and how to use isinstance, issubclass, type and super built-in functions
 
 ---
-<!--
+
 ### [0. Lookup](./0-lookup.py)
-* Write a function that returns the list of available attributes and methods of an object:
+* A function that returns the list of available attributes and methods of an object.
 
-
+<!--
 ### [1. My list](./1-my_list.py)
 * Write a class MyList that inherits from list:
 
