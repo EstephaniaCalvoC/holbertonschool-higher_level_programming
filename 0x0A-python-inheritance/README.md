@@ -53,15 +53,15 @@ What I learned from this project:
 ### [6. Improve Geometry](./6-base_geometry.py)
 * A class BaseGeometry v.1.
 
-<!--
+
 ### [7. Integer validator](./7-base_geometry.py)
-* Write a class BaseGeometry (based on 6-base_geometry.py).
+* A class BaseGeometry v2.
 
 
 ### [8. Rectangle](./8-rectangle.py)
-* Write a class Rectangle that inherits from BaseGeometry (7-base_geometry.py).
+* A class Rectangle that inherits from BaseGeometry v0.
 
-
+<!--
 ### [9. Full rectangle](./9-rectangle.py)
 * Write a class Rectangle that inherits from BaseGeometry (7-base_geometry.py).
 (task based on 8-rectangle.py)
