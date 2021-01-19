@@ -49,11 +49,11 @@ What I learned from this project:
 ### [5. Geometry module](./5-base_geometry.py)
 * An empty class BaseGeometry.
 
-<!--
+
 ### [6. Improve Geometry](./6-base_geometry.py)
-* Write a class BaseGeometry (based on 5-base_geometry.py).
+* A class BaseGeometry v.1.
 
-
+<!--
 ### [7. Integer validator](./7-base_geometry.py)
 * Write a class BaseGeometry (based on 6-base_geometry.py).
 
