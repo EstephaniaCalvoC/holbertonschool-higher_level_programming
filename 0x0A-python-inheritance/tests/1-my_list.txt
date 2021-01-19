@@ -1,20 +1,34 @@
-The ``print sorted list`` module
-======================
+===========================
+How use MyList class
+===========================
 
--------------------
+=====
+Usage
+=====
 
-This is a text file in reStructuredText format. First import
-add_integer from the Integers addition module
+Import the class:
 
     >>> MyList = __import__('1-my_list').MyList
 
-Now use it:
+Intance MyList object:
 
-    >>> my_list = MyList()
-    >>> my_list.append(1)
-    >>> my_list.append(4)
-    >>> my_list.append(2)
-    >>> print(my_list)
-    [1, 4, 2]
-    >>> my_list.print_sorted()
-    [1, 2, 4]
+    >>> list1 = MyList()
+    >>> type(list1)
+    <class '1-my_list.MyList'>
+
+    >>> print(list1)
+    []
+
+Test for Success Cases:
+
+    >>> list1.append(1)
+    >>> list1.append(-29)
+    >>> print(list1)
+    [1, -29]
+
+    >>> list1.print_sorted()
+    [-29, 1]
+
+    >>> list2 = MyList()
+    >>> list2.print_sorted()
+    []
