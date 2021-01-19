@@ -45,11 +45,11 @@ What I learned from this project:
 ### [4. Only sub class of](./4-inherits_from.py)
 * A function that returns True if the object is an instance of a class that inherited (directly or indirectly) from the specified class ; otherwise False.
 
-<!--
+
 ### [5. Geometry module](./5-base_geometry.py)
-* Write an empty class BaseGeometry.
+* An empty class BaseGeometry.
 
-
+<!--
 ### [6. Improve Geometry](./6-base_geometry.py)
 * Write a class BaseGeometry (based on 5-base_geometry.py).
 
