@@ -33,11 +33,11 @@ What I learned from this project:
 ### [1. My list](./1-my_list.py)
 * A class MyList that inherits from list:
 
-<!--
+
 ### [2. Exact same object](./2-is_same_class.py)
-* Write a function that returns True if the object is exactly an instance of the specified class ; otherwise False.
+* A function that returns True if the object is exactly an instance of the specified class ; otherwise False.
 
-
+<!--
 ### [3. Same class or inherit from](./3-is_kind_of_class.py)
 * Write a function that returns True if the object is an instance of, or if the object is an instance of a class that inherited from, the specified class ; otherwise False.
 
