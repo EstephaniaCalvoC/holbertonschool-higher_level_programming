@@ -67,14 +67,13 @@ What I learned from this project:
 
 
 ### [10. Square #1](./10-square.py)
-* A class Square that inherits from Rectangle (9-rectangle.py):
+* A class Square that inherits from Rectangle v0.
+
+
+### [11. Square #2](./11-square.py)
+* A class Square that inherits from Rectangle v1.
 
 <!--
-### [11. Square #2](./11-square.py)
-* Write a class Square that inherits from Rectangle (9-rectangle.py).
-(task based on 10-square.py).
-
-
 ### [12. My integer](./100-my_int.py)
 * Write a class MyInt that inherits from int:
 
