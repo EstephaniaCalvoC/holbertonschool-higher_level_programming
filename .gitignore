@@ -7,6 +7,7 @@
 0x04-python-more_data_structures/*
 0x05-python-exception/*
 0x06-python-classes/*
+0x09-python-everything_is_object/*
 *.vscode/
 *main.c
 *main.py
