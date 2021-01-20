@@ -72,11 +72,11 @@ What I learned from this project:
 ### [10. Student to JSON with filter](./10-student.py)
 * A class Student that defines a student v1.
 
-<!--
+
 ### [11. Student to disk and reload](./11-student.py)
-* Write a class Student that defines a student by: (based on 10-student.py)
+* A class Student that defines a student by v2.
 
-
+<!--
 ### [12. Pascal's Triangle](./12-pascal_triangle.py)
 * Technical interview preparation: 
 
