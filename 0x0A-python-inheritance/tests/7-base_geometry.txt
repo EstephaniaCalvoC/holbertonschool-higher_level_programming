@@ -1,16 +1,14 @@
-===========================
-How use base_geometry class
-===========================
+The ``integer_validator`` module
+======================
 
-=====
-Usage
-=====
+-------------------
 
-Import the class:
+This is a text file in reStructuredText format. First import
+add_integer from the Integers addition module
 
     >>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
-Intance BaseGeometry object:
+Now use it:
 
     >>> bg = BaseGeometry()
     >>> bg.integer_validator("my_int", 12)
@@ -32,5 +30,5 @@ PEP8 STYLE
 --------------------
 
     >>> import os
-    >>> os.popen("pep8 1-my_list.py").read()
+    >>> os.popen("pep8 7-base_geometry.py").read()
     ''
