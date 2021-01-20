@@ -44,11 +44,11 @@ What I learned from this project:
 ### [3. To JSON string](./3-to_json_string.py)
 * A function that returns the JSON representation of an object (string):
 
-<!--
+
 ### [4. From JSON string to Object](./4-from_json_string.py)
-* Write a function that returns an object (Python data structure) represented by a JSON string:
+* A function that returns an object (Python data structure) represented by a JSON string.
 
-
+<!--
 ### [5. Save Object to a file](./5-save_to_json_file.py)
 * Write a function that writes an Object to a text file, using a JSON representation:
 
