@@ -76,11 +76,11 @@ What I learned from this project:
 ### [11. Student to disk and reload](./11-student.py)
 * A class Student that defines a student by v2.
 
-<!--
+
 ### [12. Pascal's Triangle](./12-pascal_triangle.py)
-* Technical interview preparation: 
+* A function to a return a Pascal triangle represented by list.
 
-
+<!--
 ### [13. Search and update](./100-append_after.py)
 * Write a function that inserts a line of text to a file, after each line containing a specific string (see example):
 
