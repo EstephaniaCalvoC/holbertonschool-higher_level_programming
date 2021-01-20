@@ -60,11 +60,11 @@ What I learned from this project:
 ### [7. Load, add, save](./7-add_item.py)
 * A script that adds all arguments to a Python list, and then save them to a file.
 
-<!--
+
 ### [8. Class to JSON](./8-class_to_json.py)
-* Write a function that returns the dictionary description with simple data structure (list, dictionary, string, integer and boolean) for JSON serialization of an object:
+* A function that returns the dictionary description with simple data structure (list, dictionary, string, integer and boolean) for JSON serialization of an object.
 
-
+<!--
 ### [9. Student to JSON](./9-student.py)
 * Write a class Student that defines a student by:
 
