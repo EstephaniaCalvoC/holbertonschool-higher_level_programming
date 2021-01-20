@@ -68,11 +68,11 @@ What I learned from this project:
 ### [9. Student to JSON](./9-student.py)
 * A class Student that defines a student v0.
 
-<!--
+
 ### [10. Student to JSON with filter](./10-student.py)
-* Write a class Student that defines a student by: (based on 9-student.py)
+* A class Student that defines a student v1.
 
-
+<!--
 ### [11. Student to disk and reload](./11-student.py)
 * Write a class Student that defines a student by: (based on 10-student.py)
 
