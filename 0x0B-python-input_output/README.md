@@ -48,15 +48,15 @@ What I learned from this project:
 ### [4. From JSON string to Object](./4-from_json_string.py)
 * A function that returns an object (Python data structure) represented by a JSON string.
 
-<!--
+
 ### [5. Save Object to a file](./5-save_to_json_file.py)
-* Write a function that writes an Object to a text file, using a JSON representation:
+* A function that writes an Object to a text file, using a JSON representation.
 
 
 ### [6. Create object from a JSON file](./6-load_from_json_file.py)
-* Write a function that creates an Object from a “JSON file”:
+* A function that creates an Object from a “JSON file”.
 
-
+<!--
 ### [7. Load, add, save](./7-add_item.py)
 * Write a script that adds all arguments to a Python list, and then save them to a file:
 
