@@ -28,11 +28,11 @@ What I learned from this project:
 * How to convert a JSON string to a Python data structure
 
 ---
-<!--
+
 ### [0. Read file](./0-read_file.py)
-* Write a function that reads a text file (UTF8) and prints it to stdout:
+* A function that reads a text file (UTF8) and prints it to stdout.
 
-
+<!--
 ### [1. Write to a file](./1-write_file.py)
 * Write a function that writes a string to a text file (UTF8) and returns the number of characters written:
 
