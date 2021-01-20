@@ -13,14 +13,13 @@ Import the class:
 Intance BaseGeometry object:
 
     >>> bg = BaseGeometry()
-    >>> type(bg)
-    <class '7-base_geometry.BaseGeometry'>
 
 Test for Success Cases:
 
     >>> bg.integer_validator("my_int", 12)
     
     >>> bg.integer_validator("width", 89)
+
 
 Test Error Cases.
 
@@ -36,9 +35,6 @@ Test Error Cases.
     Traceback (most recent call last):
     ValueError: age must be greater than 0
 
-    >>> bg.area()
-    Traceback (most recent call last):
-    Exception: area() is not implemented
 
 --------------------
 PEP8 STYLE
