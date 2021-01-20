@@ -64,11 +64,11 @@ What I learned from this project:
 ### [8. Class to JSON](./8-class_to_json.py)
 * A function that returns the dictionary description with simple data structure (list, dictionary, string, integer and boolean) for JSON serialization of an object.
 
-<!--
+
 ### [9. Student to JSON](./9-student.py)
-* Write a class Student that defines a student by:
+* A class Student that defines a student v0.
 
-
+<!--
 ### [10. Student to JSON with filter](./10-student.py)
 * Write a class Student that defines a student by: (based on 9-student.py)
 
