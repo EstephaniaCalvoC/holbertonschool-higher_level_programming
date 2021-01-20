@@ -1,10 +1,10 @@
-The ``integer_validator`` module
-======================
+===========================
+How use base_geometry class
+===========================
 
--------------------
-
-This is a text file in reStructuredText format. First import
-add_integer from the Integers addition module
+=====
+Usage
+=====
 
     >>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
