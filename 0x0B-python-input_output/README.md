@@ -32,11 +32,11 @@ What I learned from this project:
 ### [0. Read file](./0-read_file.py)
 * A function that reads a text file (UTF8) and prints it to stdout.
 
-<!--
+
 ### [1. Write to a file](./1-write_file.py)
-* Write a function that writes a string to a text file (UTF8) and returns the number of characters written:
+* A function that writes a string to a text file (UTF8) and returns the number of characters written.
 
-
+<!--
 ### [2. Append to a file](./2-append_write.py)
 * Write a function that appends a string at the end of a text file (UTF8) and returns the number of characters added:
 
