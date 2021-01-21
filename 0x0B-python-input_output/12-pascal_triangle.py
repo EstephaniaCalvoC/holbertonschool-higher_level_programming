@@ -13,10 +13,10 @@ def pascal_triangle(n):
     if n <= 0:
         return triangle
     if n == 1:
-        tringle.append([1])
+        triangle.append([1])
         return triangle
     if n == 2:
-        tringle.extend([[1], [1, 1]])
+        triangle.extend([[1], [1, 1]])
         return triangle
 
     if n > 2:
