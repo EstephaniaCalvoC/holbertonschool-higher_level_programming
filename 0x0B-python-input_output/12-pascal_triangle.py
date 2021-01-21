@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Deine class_to_json function"""
 
+
 def pascal_triangle(n):
     """
     Return a list of lists of integers representing
@@ -23,9 +24,8 @@ def pascal_triangle(n):
         for n_row in range(3, n+1):
             row = [1]
             for i in range(n_row-3):
-                row.append(sum(triangle[-1][0 + i : 2 + i]))
+                row.append(sum(triangle[-1][0 + i:2 + i]))
             row.extend([n_row-1, 1])
             triangle.append(row)
 
     return triangle
-    
