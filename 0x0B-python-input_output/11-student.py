@@ -15,8 +15,8 @@ class Student:
         """Retrieve a dictionary representation of a Student instance"""
 
         if type(attrs) == list and all (type(i) == str for i in attrs):
-            l_key_val = [[k, getattr(self, k)] for k in attrs if hasattr(self, k)]
-            return dict(l_key_val)
+            k_v = [[k, getattr(self, k)] for k in attrs if hasattr(self, k)]
+            return dict(k_v)
         return self.__dict__
 
     def reload_from_json(self, json):
