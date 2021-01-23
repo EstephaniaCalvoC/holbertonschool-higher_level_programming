@@ -86,3 +86,13 @@ class Rectangle(Base):
         of a Rectangle object.
         """
         print((("#" * self.__width) + "\n") * self.__height, end="")
+
+    def __str__(self):
+        """Return an informal printable string of a Rectangle object."""
+        return "[Rectangle] ({}) {}/{} - {}/{}". format(
+            self.id,
+            self.x,
+            self.y,
+            self.width,
+            self.height
+        )

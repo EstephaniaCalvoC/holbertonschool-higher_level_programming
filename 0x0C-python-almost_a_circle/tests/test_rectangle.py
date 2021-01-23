@@ -80,12 +80,11 @@ class TestRectangle_area(unittest.TestCase):
         self.assertEqual(15, ra.area())
 
 
-class TestRectangle_display(unittest.TestCase):
+class TestRectangle_printMethods(unittest.TestCase):
     """Test case for display method in Rectangle class"""
 
     @patch('builtins.print')
     def test_display(self, mock_print):
-        # The actual test
         Rectangle(4, 6).display()
         exp1 = "####\n" * 6
         mock_print.assert_called_with(exp1, end="")
@@ -93,3 +92,7 @@ class TestRectangle_display(unittest.TestCase):
         Rectangle(6, 4).display()
         exp2 = "######\n" * 4
         mock_print.assert_called_with(exp2, end="")
+
+    def test_str(self):
+        str1 = str(Rectangle(4, 6, 2, 1, 12))
+        self.assertEqual("[Rectangle] (12) 2/1 - 4/6", str1)
