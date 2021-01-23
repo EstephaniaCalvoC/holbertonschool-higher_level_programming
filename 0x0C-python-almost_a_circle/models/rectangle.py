@@ -85,7 +85,10 @@ class Rectangle(Base):
         Print an informal and nicely printable string
         of a Rectangle object.
         """
-        print((("#" * self.__width) + "\n") * self.__height, end="")
+        mTop = "\n" * self.__y
+        mLeft = " " * self.__x
+        row = ("#" * self.__width) + "\n"
+        print(mTop + ((mLeft + row) * self.__height), end="")
 
     def __str__(self):
         """Return an informal printable string of a Rectangle object."""

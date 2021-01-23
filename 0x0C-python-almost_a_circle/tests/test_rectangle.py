@@ -84,7 +84,7 @@ class TestRectangle_printMethods(unittest.TestCase):
     """Test case for display method in Rectangle class"""
 
     @patch('builtins.print')
-    def test_display(self, mock_print):
+    def test_display_normal(self, mock_print):
         Rectangle(4, 6).display()
         exp1 = "####\n" * 6
         mock_print.assert_called_with(exp1, end="")
@@ -92,6 +92,12 @@ class TestRectangle_printMethods(unittest.TestCase):
         Rectangle(6, 4).display()
         exp2 = "######\n" * 4
         mock_print.assert_called_with(exp2, end="")
+
+    @patch('builtins.print')
+    def test_display_position(self, mock_print):
+        Rectangle(2, 3, 2, 2).display()
+        exp1 = "\n\n" + ("  ##\n" * 3)
+        mock_print.assert_called_with(exp1, end="")
 
     def test_str(self):
         str1 = str(Rectangle(4, 6, 2, 1, 12))
