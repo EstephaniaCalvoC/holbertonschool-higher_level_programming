@@ -2,8 +2,8 @@
 """
 Define unittests for Rectanagle class
 """
-import os
 import unittest
+from unittest.mock import patch
 from models.rectangle import Rectangle
 
 
@@ -78,3 +78,18 @@ class TestRectangle_area(unittest.TestCase):
     def test_area(self):
         ra = Rectangle(5, 3, 2, 6)
         self.assertEqual(15, ra.area())
+
+
+class TestRectangle_display(unittest.TestCase):
+    """Test case for display method in Rectangle class"""
+
+    @patch('builtins.print')
+    def test_display(self, mock_print):
+        # The actual test
+        Rectangle(4, 6).display()
+        exp1 = "####\n" * 6
+        mock_print.assert_called_with(exp1, end="")
+
+        Rectangle(6, 4).display()
+        exp2 = "######\n" * 4
+        mock_print.assert_called_with(exp2, end="")
