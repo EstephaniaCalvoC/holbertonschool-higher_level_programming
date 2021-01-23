@@ -1,6 +1,7 @@
 #!usr/bin/python3
 """Define a class Base"""
 
+
 class Base:
     """
     Abstract class to support all other figures classes.
@@ -26,4 +27,3 @@ class Base:
         else:
             Base.__nb_objects += 1
             self.id = Base.__nb_objects
-

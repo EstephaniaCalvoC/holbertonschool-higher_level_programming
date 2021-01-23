@@ -2,10 +2,10 @@
 """
 Define unittests for Base class
 """
-
 import os
 import unittest
 from models.base import Base
+
 
 class TestBase_init(unittest.TestCase):
     """Test cases for init function in Base class"""
