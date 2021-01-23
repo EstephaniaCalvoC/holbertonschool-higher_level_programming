@@ -8,7 +8,7 @@ from models.rectangle import Rectangle
 
 
 class TestRectangle_init(unittest.TestCase):
-    """Test cases for init function in Rectangle class"""
+    """Test cases for init methods in Rectangle class"""
 
     def test_correct_args(self):
         r1 = Rectangle(10, 2)
@@ -70,3 +70,11 @@ class TestRectangle_init(unittest.TestCase):
 
         with self.assertRaisesRegex(ValueError, "y must be >= 0"):
             Rectangle(1, 2, y=-3)
+
+
+class TestRectangle_area(unittest.TestCase):
+    """Test case for area method in Rectangle class"""
+
+    def test_area(self):
+        ra = Rectangle(5, 3, 2, 6)
+        self.assertEqual(15, ra.area())
