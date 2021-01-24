@@ -146,3 +146,13 @@ class TestRectangle_update(unittest.TestCase):
         self.assertEqual("[Rectangle] (15) 10/4 - 8/9", str(r))
         r.update(height=12, y=14, id=16, x=13, width=11)
         self.assertEqual("[Rectangle] (16) 13/14 - 11/12", str(r))
+
+
+class TestRectangle_to_dictionary(unittest.TestCase):
+    """Test case for to_dictionary method in Rectangle class"""
+
+    def test_area(self):
+        r = Rectangle(10, 2, 1, 9)
+        exp = {'id': r.id, 'width': 10, 'height': 2, 'x': 1, 'y': 9}
+        real = r.to_dictionary()
+        self.assertEqual(exp, real)

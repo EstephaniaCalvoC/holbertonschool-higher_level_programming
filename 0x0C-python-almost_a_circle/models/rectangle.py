@@ -127,3 +127,11 @@ class Rectangle(Base):
             for arg in kwargs.keys():
                 if arg in ("width", "height", "x", "y"):
                     setattr(self, arg, kwargs[arg])
+
+    def to_dictionary(self):
+        """Return the dictionary representation of a Rectangle"""
+        dic = {}
+        ncls = "_Rectangle__"
+        for k, v in self.__dict__.items():
+            dic.update({str(k[12:]): v}) if ncls in k else dic.update({k: v})
+        return dic
