@@ -100,16 +100,30 @@ class Rectangle(Base):
             self.height
         )
 
-    def update(self, *args):
+    def update(self, *args, **kwargs):
         """Assign an argument to each attribute"""
-        len_args = len(args)
-        if len_args >= 1:
-            self.id = args[0]
-        if len_args >= 2:
-            self.width = args[1]
-        if len_args >= 3:
-            self.height = args[2]
-        if len_args >= 4:
-            self.x = args[3]
-        if len_args >= 5:
-            self.y = args[4]
+
+        if args and len(args) > 0:
+            len_args = len(args)
+
+            if len_args >= 1:
+                if args[0] is not None:
+                    self.id = args[0]
+                else:
+                    self.__init__(self.width, self.height, self.x, self.y)
+
+            self.width = args[1] if len_args >= 2 else self.width
+            self.height = args[2] if len_args >= 3 else self.height
+            self.x = args[3] if len_args >= 4 else self.x
+            self.y = args[4] if len_args >= 5 else self.y
+
+        elif kwargs and len(kwargs) > 0:
+            if "id" in kwargs.keys():
+                if kwargs["id"] is not None:
+                    self.id = kwargs["id"]
+                else:
+                    self.__init__(self.width, self.height, self.x, self.y)
+
+            for arg in kwargs.keys():
+                if arg in ("width", "height", "x", "y"):
+                    setattr(self, arg, kwargs[arg])
