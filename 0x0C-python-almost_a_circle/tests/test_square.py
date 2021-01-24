@@ -26,6 +26,19 @@ class TestSquare_init(unittest.TestCase):
             [10, 10, 2, 1, 13]]
         self.assertEqual(l_exp, l_real)
 
+    def test_set_size(self):
+        s = Square(1)
+
+        s.size =  2
+        l_real = [s.width, s.height, s.x, s.y]
+        self.assertEqual([2, 2, 0, 0], l_real)
+
+        with self.assertRaisesRegex(TypeError, "width must be an integer"):
+            s.size = "-20"
+        with self.assertRaisesRegex(ValueError, "width must be > 0"):
+            s.size = -20
+
+
     def test_Incorrect_size(self):
         tTypeError = (1.2, "1", True, None)
         for case in tTypeError:
