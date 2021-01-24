@@ -36,3 +36,30 @@ class Square(Rectangle):
             self.y,
             self.width
         )
+
+    def update(self, *args, **kwargs):
+        """Assign an argument to each attribute"""
+
+        if args and len(args) > 0:
+            len_args = len(args)
+
+            if len_args >= 1:
+                if args[0] is not None:
+                    self.id = args[0]
+                else:
+                    self.__init__(self.size, self.x, self.y)
+
+            self.size = args[1] if len_args >= 2 else self.width
+            self.x = args[2] if len_args >= 3 else self.x
+            self.y = args[3] if len_args >= 4 else self.y
+
+        elif kwargs and len(kwargs) > 0:
+            if "id" in kwargs.keys():
+                if kwargs["id"] is not None:
+                    self.id = kwargs["id"]
+                else:
+                    self.__init__(self.size, self.x, self.y)
+
+            for arg in kwargs.keys():
+                if arg in ("size", "x", "y"):
+                    setattr(self, arg, kwargs[arg])

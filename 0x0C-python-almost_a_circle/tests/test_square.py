@@ -29,7 +29,7 @@ class TestSquare_init(unittest.TestCase):
     def test_set_size(self):
         s = Square(1)
 
-        s.size =  2
+        s.size = 2
         l_real = [s.width, s.height, s.x, s.y]
         self.assertEqual([2, 2, 0, 0], l_real)
 
@@ -37,7 +37,6 @@ class TestSquare_init(unittest.TestCase):
             s.size = "-20"
         with self.assertRaisesRegex(ValueError, "width must be > 0"):
             s.size = -20
-
 
     def test_Incorrect_size(self):
         tTypeError = (1.2, "1", True, None)
@@ -105,41 +104,35 @@ class TestSquare_printMethods(unittest.TestCase):
         self.assertEqual("[Square] (12) 2/1 - 4", str1)
 
 
-# class TestSquare_update(unittest.TestCase):
-#     """Test case for area method in Square class"""
+class TestSquare_update(unittest.TestCase):
+    """Test case for area method in Square class"""
 
-#     def test_update_args(self):
-#         s = Square(1, 3, 4)
+    def test_update_args(self):
+        s = Square(1, 3, 4)
+        _id = s.id
+        s.update(None)
+        self.assertEqual("[Square] ({}) 3/4 - 1".format(_id + 1), str(s))
 
-#         _id = s.id
-#         s.update(None)
-#         self.assertEqual("[Square] ({}) 3/4 - 1".format(_id + 1), str(s))
+        s.update(12)
+        self.assertEqual("[Square] (12) 3/4 - 1", str(s))
+        s.update(13, 5)
+        self.assertEqual("[Square] (13) 3/4 - 5", str(s))
+        s.update(15, 8, 10)
+        self.assertEqual("[Square] (15) 10/4 - 8", str(s))
+        s.update(16, 11, 13, 14)
+        self.assertEqual("[Square] (16) 13/14 - 11", str(s))
 
-#         s.update(12)
-#         self.assertEqual("[Square] (12) 3/4 - 1", str(r))
-#         s.update(13, 5)
-#         self.assertEqual("[Square] (13) 3/4 - 5", str(r))
-#         s.update(14, 6, 7)
-#         self.assertEqual("[Square] (14) 3/4 - 6", str(r))
-#         s.update(15, 8, 9, 10)
-#         self.assertEqual("[Square] (15) 10/4 - 8", str(r))
-#         s.update(16, 11, 12, 13, 14)
-#         self.assertEqual("[Square] (16) 13/14 - 11", str(r))
+    def test_update_kwargs(self):
+        s = Square(1, 3, 4)
+        _id = s.id
+        s.update(id=None)
+        self.assertEqual("[Square] ({}) 3/4 - 1".format(_id + 1), str(s))
 
-#     def test_update_kwargs(self):
-#         r = Square(1, 3, 4)
-
-#         _id = r.id
-#         r.update(id=None)
-#         self.assertEqual("[Square] ({}) 3/4 - 1".format(_id + 1), str(r))
-
-#         r.update(id=12)
-#         self.assertEqual("[Square] (12) 3/4 - 1", str(r))
-#         r.update(width=5, id=13)
-#         self.assertEqual("[Square] (13) 3/4 - 5", str(r))
-#         r.update(height=7, id=14, width=6)
-#         self.assertEqual("[Square] (14) 3/4 - 6", str(r))
-#         r.update(id=15, x=10, width=8, height=9)
-#         self.assertEqual("[Square] (15) 10/4 - 8", str(r))
-#         r.update(height=12, y=14, id=16, x=13, width=11)
-#         self.assertEqual("[Square] (16) 13/14 - 11", str(r))
+        s.update(id=12)
+        self.assertEqual("[Square] (12) 3/4 - 1", str(s))
+        s.update(size=5, id=13)
+        self.assertEqual("[Square] (13) 3/4 - 5", str(s))
+        s.update(id=15, x=10, size=8)
+        self.assertEqual("[Square] (15) 10/4 - 8", str(s))
+        s.update(y=14, id=16, x=13, size=11)
+        self.assertEqual("[Square] (16) 13/14 - 11", str(s))
