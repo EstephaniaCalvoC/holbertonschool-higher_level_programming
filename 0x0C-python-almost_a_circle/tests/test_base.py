@@ -206,3 +206,24 @@ class TestBase_crate(unittest.TestCase):
         self.assertEqual(str(r1), str(r2))
         self.assertFalse(r1 == r2)
         self.assertFalse(r1 is r2)
+
+
+class TestBase_load_from_file(unittest.TestCase):
+    """Test cases for load_from_file method in Base class"""
+
+    def test_load_none_file(self):
+        list_squares_output = Square.load_from_file()
+        self.assertEqual([], list_squares_output)
+
+    def test_load_Rectangle_file(self):
+        r1 = Rectangle(10, 7, 2, 8)
+        r2 = Rectangle(2, 4)
+
+        list_rectangles_input = [r1, r2]
+        exp = [str(r) for r in list_rectangles_input]
+        Rectangle.save_to_file(list_rectangles_input)
+        list_rectangles_output = Rectangle.load_from_file()
+        real = [str(r) for r in list_rectangles_output]
+
+        self.assertEqual(exp, real)
+        os.remove("Rectangle.json")
