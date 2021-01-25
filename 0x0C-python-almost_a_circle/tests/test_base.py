@@ -63,23 +63,43 @@ class TestBase_save_to_file(unittest.TestCase):
     def clean_files(self):
         """Clean any 'class.json' files"""
 
-        for _class in (Base, Rectangle, Square):
-            try:
-                os.remove(_class.__name__ + ".json")
-            except IOError:
-                pass
+        # os.remove("Square.json")
+        # os.remove("Rectangle.json")
+        # os.remove("Base.json")
+        try:
+            os.remove("Square.json")
+        except FileNotFoundError:
+            pass
+
+        try:
+            os.remove("Rectangle.json")
+        except FileNotFoundError:
+            pass
+
+        try:
+            os.remove("Base.json")
+        except FileNotFoundError:
+            pass
 
     def test_list_obj_None(self):
+        TestBase_save_to_file.clean_files()
+
         Square.save_to_file(None)
         with open("Square.json", "r") as f:
             self.assertEqual("[]", f.read())
+        TestBase_save_to_file.clean_files()
 
     def test_list_obj_empty(self):
+        TestBase_save_to_file.clean_files()
+
         Square.save_to_file([])
         with open("Square.json", "r") as f:
             self.assertEqual("[]", f.read())
+        TestBase_save_to_file.clean_files()
 
     def test_correct_list_obj(self):
+        TestBase_save_to_file.clean_files()
+
         r1 = Rectangle(10, 7, 2, 8)
         r2 = Rectangle(2, 4)
 
@@ -103,18 +123,46 @@ class TestBase_save_to_file(unittest.TestCase):
         with open("Square.json", "r") as file:
             reals = eval(file.read())
         self.assertEqual(exps, reals)
+        TestBase_save_to_file.clean_files()
 
-        def test_overwrite(self):
-            r1 = Rectangle(10, 7, 2, 8)
-            Rectangle.save_to_file([r1])
-            exp1 = [{"y": 8, "x": 2, "id": r1.id, "width": 10, "height": 7}]
-            with open("Rectangle.json", "r") as file:
-                real1 = eval(file.read())
-            self.assertEqual(exp1, real1)
+    def test_overwrite(self):
+        TestBase_save_to_file.clean_files()
 
-            r2 = Rectangle(2, 4)
-            Rectangle.save_to_file([r2])
-            exp2 = [{"y": 0, "x": 0, "id": r2.id, "width": 2, "height": 4}]
-            with open("Rectangle.json", "r") as file:
-                real2 = eval(file.read())
-            self.assertEqual(exp2, real2)
+        r1 = Rectangle(10, 7, 2, 8)
+        Rectangle.save_to_file([r1])
+        exp1 = [{"y": 8, "x": 2, "id": r1.id, "width": 10, "height": 7}]
+        with open("Rectangle.json", "r") as file:
+            real1 = eval(file.read())
+        self.assertEqual(exp1, real1)
+
+        r2 = Rectangle(2, 4)
+        Rectangle.save_to_file([r2])
+        exp2 = [{"y": 0, "x": 0, "id": r2.id, "width": 2, "height": 4}]
+        with open("Rectangle.json", "r") as file:
+            real2 = eval(file.read())
+        self.assertEqual(exp2, real2)
+        TestBase_save_to_file.clean_files()
+
+    def test_inherence(self):
+        TestBase_save_to_file.clean_files()
+
+        s = Square(2, 4)
+
+        Square.save_to_file([s])
+        exps = [{"y": 0, "x": 4, "id": s.id, "size": 2}]
+        with open("Square.json", "r") as file:
+            reals = eval(file.read())
+        self.assertEqual(exps, reals)
+
+        Rectangle.save_to_file([s])
+        expb = [{"y": 0, "x": 4, "id": s.id, "size": 2}]
+        with open("Rectangle.json", "r") as file:
+            realb = eval(file.read())
+        self.assertEqual(expb, realb)
+
+        Base.save_to_file([s])
+        expb = [{"y": 0, "x": 4, "id": s.id, "size": 2}]
+        with open("Base.json", "r") as file:
+            realb = eval(file.read())
+        self.assertEqual(expb, realb)
+        TestBase_save_to_file.clean_files()
