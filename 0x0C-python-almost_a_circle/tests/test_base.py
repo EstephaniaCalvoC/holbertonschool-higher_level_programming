@@ -166,3 +166,28 @@ class TestBase_save_to_file(unittest.TestCase):
             realb = eval(file.read())
         self.assertEqual(expb, realb)
         TestBase_save_to_file.clean_files()
+
+
+class TestBase_from_json_string(unittest.TestCase):
+    """Test cases for from_json_string method in Base class"""
+
+    def test_json_string_None(self):
+        list_output = Square.from_json_string(None)
+        self.assertEqual([], list_output)
+
+    def test_josn_string_empty(self):
+        list_input = []
+        json_list_input = Square.to_json_string(list_input)
+        list_output = Rectangle.from_json_string(json_list_input)
+        self.assertEqual([], list_output)
+
+    def test_correct_json_string(self):
+        list_input = [
+            {'id': 89, 'width': 10, 'height': 4},
+            {'id': 7, 'width': 1, 'height': 7}
+            ]
+        json_list_input = Rectangle.to_json_string(list_input)
+        list_output = Rectangle.from_json_string(json_list_input)
+
+        self.assertEqual(list, type(list_output))
+        self.assertEqual(list_input, list_output)
