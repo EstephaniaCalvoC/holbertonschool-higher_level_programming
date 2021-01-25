@@ -14,20 +14,22 @@ class TestBase_init(unittest.TestCase):
 
     def test_id_None(self):
         b1 = Base()
+        _id = b1.id
         b2 = Base()
         b3 = Base(None)
         l_id = [b1.id, b2.id, b3.id]
-        self.assertEqual([1, 2, 3], l_id)
+        self.assertEqual([_id, _id + 1, _id + 2], l_id)
 
     def test_id_number(self):
         self.assertEqual(55, Base(55).id)
 
     def test_id_mix(self):
         b4 = Base()
+        _id = b4.id
         b9 = Base(9)
         b5 = Base()
         l_id = [b4.id, b9.id, b5.id]
-        self.assertEqual([4, 9, 5], l_id)
+        self.assertEqual([_id, 9, _id + 1], l_id)
 
 
 class TestBase_to_json_string(unittest.TestCase):
@@ -191,3 +193,16 @@ class TestBase_from_json_string(unittest.TestCase):
 
         self.assertEqual(list, type(list_output))
         self.assertEqual(list_input, list_output)
+
+
+class TestBase_crate(unittest.TestCase):
+    """Test cases for create method in Base class"""
+
+    def test_create(self):
+        r1 = Rectangle(3, 5, 1)
+        r1_dictionary = r1.to_dictionary()
+        r2 = Rectangle.create(**r1_dictionary)
+
+        self.assertEqual(str(r1), str(r2))
+        self.assertFalse(r1 == r2)
+        self.assertFalse(r1 is r2)
