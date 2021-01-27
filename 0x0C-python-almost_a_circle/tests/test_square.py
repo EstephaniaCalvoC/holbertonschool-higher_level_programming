@@ -146,13 +146,3 @@ class TestSquare_to_dictionary(unittest.TestCase):
         exp = {'id': s.id, 'x': 2, 'size': 10, 'y': 1}
         real = s.to_dictionary()
         self.assertEqual(exp, real)
-
-
-class TestSquare_create(unittest.TestCase):
-    """Test case for correct method in Square class"""
-
-    def test_correct_dict(self):
-        s = Square(10, 2, 1)
-        exp = {'id': s.id, 'x': 2, 'size': 10, 'y': 1}
-        real = s.to_dictionary()
-        self.assertEqual(exp, real)
