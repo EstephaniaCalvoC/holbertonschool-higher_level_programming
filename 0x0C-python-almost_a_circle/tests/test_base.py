@@ -197,14 +197,14 @@ class TestBase_from_json_string(unittest.TestCase):
 
 class TestBase_crate(unittest.TestCase):
     """Test cases for create method in Base class"""
-    # def test_create_square(self):
-    #     s1 = Square(3, 5, 1)
-    #     s1_dictionary = s1.to_dictionary()
-    #     s2 = Square.create(**s1_dictionary)
+    def test_create_square(self):
+        s1 = Square(3, 5, 1)
+        s1_dictionary = s1.to_dictionary()
+        s2 = Square.create(**s1_dictionary)
 
-    #     self.assertEqual(str(s1), str(s2))
-    #     self.assertFalse(s1 == s2)
-    #     self.assertFalse(s1 is s2)
+        self.assertEqual(str(s1), str(s2))
+        self.assertFalse(s1 == s2)
+        self.assertFalse(s1 is s2)
 
     def test_create_rectangle(self):
         r1 = Rectangle(3, 5, 1)

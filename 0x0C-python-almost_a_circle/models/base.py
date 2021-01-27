@@ -66,7 +66,7 @@ class Base:
         the attributes are in a dictionary.
         """
         if dictionary and dictionary != {}:
-            if cls.__name__ == "Squre":
+            if cls.__name__ == "Square":
                 new_obj = cls(1)
             elif cls.__name__ == "Rectangle":
                 new_obj = cls(1, 1)
