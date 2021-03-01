@@ -52,14 +52,10 @@ What I learned from this project:
 
 * **6. List all in table**
   * [6-list_values.sql](./6-list_values.sql): MySQL script that lists all rows of the table `first_table`.
-<!--
-* **7. First add**
-  * [7-insert_value.sql](./7-insert_value.sql): MySQL script that inserts a new row in the table
-  `first_table`.
-  * Description:
-    * `id` = `89`
-    * `name` = `Holberton School`
 
+* **7. First add**
+  * [7-insert_value.sql](./7-insert_value.sql): MySQL script that inserts a new row in the table `first_table`.
+<!--
 * **8. Count 89**
   * [8-count_89.sql](./8-count_89.sql): MySQL script that displays the number records with `id =
   89` in the table `first_table`.
