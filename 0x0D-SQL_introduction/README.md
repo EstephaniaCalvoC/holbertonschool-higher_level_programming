@@ -29,12 +29,12 @@ What I learned from this project:
 * How to use MySQL functions
 
 ---
-<!--
+
 ## Tasks :page_with_curl:
 
 * **0. List databases**
   * [0-list_databases.sql](./0-list_databases.sql): MySQL script that lists all databases.
-
+<!--
 * **1. Create a database**
   * [1-create_database.sql](./1-create_database.sql): MySQL script that creates the database
   `hbtn_0c_0`.
