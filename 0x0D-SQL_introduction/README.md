@@ -67,11 +67,10 @@ What I learned from this project:
 
 * **11. Select the best**
   * [11-best_score.sql](./11-best_score.sql): MySQL script that lists the `score` and `name` of all records with a `score >= 10` in the table `second_table` in order of descending score.
-<!--
-* **12. Cheating is bad**
-  * [12-no_cheating.sql](./12-no_cheating.sql): MySQL script that updates the score of Bob to 10
-  the table `second_table`.
 
+* **12. Cheating is bad**
+  * [12-no_cheating.sql](./12-no_cheating.sql): MySQL script that updates the score of Bob to 10 the table `second_table`.
+<!--
 * **13. Score too low**
   * [13-change_class.sql](./13-change_class.sql): MySQL script that removes all records with a
   `score <= 5` in the table `second_table`.
