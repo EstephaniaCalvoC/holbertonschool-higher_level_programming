@@ -38,11 +38,11 @@ What I learned from this project:
 * **1. Create a database**
   * [1-create_database.sql](./1-create_database.sql): MySQL script that creates the database
   `hbtn_0c_0`.
-<!--
+
 * **2. Delete a database**
   * [2-remove_databases.sql](./2-remove_databases.sql): MySQL script that deletes the database
   `hbtn_0c_0`.
-
+<!--
 * **3. List tables**
   * [3-list_tables.sql](./3-list_tables.sql): MySQL script that lists all tables.
 
