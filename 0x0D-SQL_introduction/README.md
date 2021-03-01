@@ -45,13 +45,10 @@ What I learned from this project:
 
 * **3. List tables**
   * [3-list_tables.sql](./3-list_tables.sql): MySQL script that lists all tables.
-<!--
+
 * **4. First table**
   * [4-first_table.sql](./4-first_table.sql): MySQL script that creates a table `first_table`.
-  * Description:
-    * `id`: INT
-    * `name`: VARCHAR(256)
-
+<!--
 * **5. Full description**
   * [5-full_table.sql](./5-full_table.sql): MySQL script that prints the full description of the
   table `first_table`.
