@@ -73,11 +73,10 @@ What I learned from this project:
 
 * **13. Score too low**
   * [13-change_class.sql](./13-change_class.sql): MySQL script that removes all records with a `score <= 5` in the table `second_table`.
-<!--
-* **14. Average**
-  * [14-average.sql](./14-average.sql): MySQL script that computes the average `score` of all
-  records in the table `second_table`.
 
+* **14. Average**
+  * [14-average.sql](./14-average.sql): MySQL script that computes the average `score` of all records in the table `second_table`.
+<!--
 * **15. Number by score**
   * [15-groups.sql](./15-groups.sql): MySQL script that lists the `score` and number of records
   with the same score in the table `second_table` in order of descending count.
