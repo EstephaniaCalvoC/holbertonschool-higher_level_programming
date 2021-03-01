@@ -76,11 +76,10 @@ What I learned from this project:
 
 * **14. Average**
   * [14-average.sql](./14-average.sql): MySQL script that computes the average `score` of all records in the table `second_table`.
-<!--
-* **15. Number by score**
-  * [15-groups.sql](./15-groups.sql): MySQL script that lists the `score` and number of records
-  with the same score in the table `second_table` in order of descending count.
 
+* **15. Number by score**
+  * [15-groups.sql](./15-groups.sql): MySQL script that lists the `score` and number of records with the same score in the table `second_table` in order of descending count.
+<!--
 * **16. Say my name**
   * [16-no_link.sql](./16-no_link.sql): MySQL script that lists the `score` and `name` of all
   records in the table `second_table` in order of descending `score`.
