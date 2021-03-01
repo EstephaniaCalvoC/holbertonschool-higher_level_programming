@@ -49,11 +49,10 @@ What I learned from this project:
 
 * **5. Full description**
   * [5-full_table.sql](./5-full_table.sql): MySQL script that prints the full description of the table `first_table`.
-<!--
-* **6. List all in table**
-  * [6-list_values.sql](./6-list_values.sql): MySQL script that lists all rows of the table
-  `first_table`.
 
+* **6. List all in table**
+  * [6-list_values.sql](./6-list_values.sql): MySQL script that lists all rows of the table `first_table`.
+<!--
 * **7. First add**
   * [7-insert_value.sql](./7-insert_value.sql): MySQL script that inserts a new row in the table
   `first_table`.
