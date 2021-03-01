@@ -55,11 +55,10 @@ What I learned from this project:
 
 * **7. First add**
   * [7-insert_value.sql](./7-insert_value.sql): MySQL script that inserts a new row in the table `first_table`.
-<!--
-* **8. Count 89**
-  * [8-count_89.sql](./8-count_89.sql): MySQL script that displays the number records with `id =
-  89` in the table `first_table`.
 
+* **8. Count 89**
+  * [8-count_89.sql](./8-count_89.sql): MySQL script that displays the number records with `id = 89` in the table `first_table`.
+<!--
 * **9. Full creation**
   * [9-full_creation.sql](./9-full_creation.sql): MySQL script that creates and fills a table
   `second_table`.
