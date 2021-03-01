@@ -70,11 +70,10 @@ What I learned from this project:
 
 * **12. Cheating is bad**
   * [12-no_cheating.sql](./12-no_cheating.sql): MySQL script that updates the score of Bob to 10 the table `second_table`.
-<!--
-* **13. Score too low**
-  * [13-change_class.sql](./13-change_class.sql): MySQL script that removes all records with a
-  `score <= 5` in the table `second_table`.
 
+* **13. Score too low**
+  * [13-change_class.sql](./13-change_class.sql): MySQL script that removes all records with a `score <= 5` in the table `second_table`.
+<!--
 * **14. Average**
   * [14-average.sql](./14-average.sql): MySQL script that computes the average `score` of all
   records in the table `second_table`.
