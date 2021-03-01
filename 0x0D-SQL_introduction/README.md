@@ -30,7 +30,7 @@ What I learned from this project:
 
 ---
 
-## Tasks :page_with_curl:
+## Tasks
 
 * **0. List databases**
   * [0-list_databases.sql](./0-list_databases.sql): MySQL script that lists all databases.
@@ -42,10 +42,10 @@ What I learned from this project:
 * **2. Delete a database**
   * [2-remove_databases.sql](./2-remove_databases.sql): MySQL script that deletes the database
   `hbtn_0c_0`.
-<!--
+
 * **3. List tables**
   * [3-list_tables.sql](./3-list_tables.sql): MySQL script that lists all tables.
-
+<!--
 * **4. First table**
   * [4-first_table.sql](./4-first_table.sql): MySQL script that creates a table `first_table`.
   * Description:
