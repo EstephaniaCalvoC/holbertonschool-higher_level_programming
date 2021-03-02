@@ -30,11 +30,10 @@ What I learned from this project:
 * What are JOIN and UNION
 
 ---
-<!--
-* **0. My privileges!**
-  * [0-privileges.sql](./0-privileges.sql): MySQL script that lists all privileges of the users
-  `user_0d_1` and `user_0d_2`.
 
+* **0. My privileges!**
+  * [0-privileges.sql](./0-privileges.sql): MySQL script that lists all privileges of the users `user_0d_1` and `user_0d_2`.
+<!--
 * **1. Root user**
   * [1-create_user.sql](./1-create_user.sql): MySQL script that creates the user `user_0d_1` with
   all privileges and password `user_0d_1_pwd`.
