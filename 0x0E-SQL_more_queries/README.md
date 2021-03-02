@@ -43,13 +43,10 @@ What I learned from this project:
 * **3. Always a name**
   * [3-force_name.sql](./3-force_name.sql): MySQL script that creates the table `force_name`.
 
-<!--
+
 * **4. ID can't be null**
   * [4-never_empty.sql](./4-never_empty.sql): MySQL script that creates the table `id_not_null`.
-  * Description:
-    * `id`: INT (default value = 1)
-    * `name`: VARCHAR(256)
-
+<!--
 * **5. Unique ID**
   * [5-unique_id.sql](./5-unique_id.sql): MySQL script that creates the table `unique_id`.
   * Description:
