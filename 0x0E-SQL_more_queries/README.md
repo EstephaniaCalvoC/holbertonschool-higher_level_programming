@@ -71,11 +71,10 @@ What I learned from this project:
 * **11. Genre ID for all shows**
   * [11-genre_id_all_shows.sql](./11-genre_id_all_shows.sql): MySQL script that lists all shows contained
   in the database `hbtn_0d_tvshows`, in order of ascending `tv_shows.title` and `tv_show_genres.genre_id`. If a show does not have a genre, displays `NULL`.
-<!--
-* **12. No genre**
-  * [12-no_genre.sql](./12-no_genre.sql): MySQL script that lists all shows contained in
-  `hbtn_0d_tvshows` without a genre linked, in order of ascending `tv_shows.title` and `tv_show_genres.genre_id`.
 
+* **12. No genre**
+  * [12-no_genre.sql](./12-no_genre.sql): MySQL script that lists all shows contained in `hbtn_0d_tvshows` without a genre linked, in order of ascending `tv_shows.title` and `tv_show_genres.genre_id`.
+<!--
 * **13. Number of shows by genre**
   * [13-count_shows_by_genre.sql](./13-count_shows_by_genre.sql): MySQL script that lists all genres from
   `hbtn_0d_tvshows` and displays the number of shows linked to each, in order of descending number of shows linked.
