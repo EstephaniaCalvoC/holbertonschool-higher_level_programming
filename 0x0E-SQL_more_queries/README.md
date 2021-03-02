@@ -61,11 +61,10 @@ What I learned from this project:
   * [8-cities_of_california_subquery.sql](./8-cities_of_california_subquery.sql):
   MySQL script that lists all the cities of California that can be found in the
   database `hbtn_0d_usa`, ordered by ascending city id.
-<!--
-* **9. Cities by States**
-  * [9-cities_by_state_join.sql](./9-cities_by_state_join.sql): MySQL script that lists
-  all cities contained in the database `hbtn_0d_usa`, ordered by ascending city id.
 
+* **9. Cities by States**
+  * [9-cities_by_state_join.sql](./9-cities_by_state_join.sql): MySQL script that lists all cities contained in the database `hbtn_0d_usa`, ordered by ascending city id.
+<!--
 * **10. Genre ID by show**
   * [10-genre_id_by_show.sql](./10-genre_id_by_show.sql): MySQL script that lists all
   shows contained in `hbtn_0d_tvshows` that have at least one genre linked, in order of ascending
