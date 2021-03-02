@@ -56,12 +56,12 @@ What I learned from this project:
 
 * **7. Cities table**
   * [7-cities.sql](./7-cities.sql): MySQL script that creates the database `hbtn_0d_usa` with a table `cities`.
-<!--
+
 * **8. Cities of California**
   * [8-cities_of_california_subquery.sql](./8-cities_of_california_subquery.sql):
   MySQL script that lists all the cities of California that can be found in the
   database `hbtn_0d_usa`, ordered by ascending city id.
-
+<!--
 * **9. Cities by States**
   * [9-cities_by_state_join.sql](./9-cities_by_state_join.sql): MySQL script that lists
   all cities contained in the database `hbtn_0d_usa`, ordered by ascending city id.
