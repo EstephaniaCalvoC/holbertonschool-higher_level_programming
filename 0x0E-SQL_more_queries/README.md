@@ -53,16 +53,10 @@ What I learned from this project:
 * **6. States table**
   * [6-states.sql](./6-states.sql): MySQL script that creates the database `hbtn_0d_usa` with a table `states`.
 
-<!--
-* **7. Cities table**
-  * [7-cities.sql](./7-cities.sql): MySQL script that creates the database `hbtn_0d_usa`
-  with a table `cities`.
-  * `cities` description:
-    * `id`: INT (unique, auto-generated, cannot be null and is a primary key)
-    * `state_id`: INT (cannot be null, foreign key that references to id of the
-    `states` table)
-    * `name`: VARCHAR(256) (cannot be null)
 
+* **7. Cities table**
+  * [7-cities.sql](./7-cities.sql): MySQL script that creates the database `hbtn_0d_usa` with a table `cities`.
+<!--
 * **8. Cities of California**
   * [8-cities_of_california_subquery.sql](./8-cities_of_california_subquery.sql):
   MySQL script that lists all the cities of California that can be found in the
