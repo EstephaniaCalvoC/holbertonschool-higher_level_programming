@@ -49,14 +49,11 @@ What I learned from this project:
 
 * **5. Unique ID**
   * [5-unique_id.sql](./5-unique_id.sql): MySQL script that creates the table `unique_id`.
-<!--
-* **6. States table**
-  * [6-states.sql](./6-states.sql): MySQL script that creates the database `hbtn_0d_usa`
-  with a table `states`.
-  * `states` description:
-    * `id`: INT (unique, auto-generated, cannot be null and is a primary key)
-    * `name`: VARCHAR(256) (cannot be null)
 
+* **6. States table**
+  * [6-states.sql](./6-states.sql): MySQL script that creates the database `hbtn_0d_usa` with a table `states`.
+
+<!--
 * **7. Cities table**
   * [7-cities.sql](./7-cities.sql): MySQL script that creates the database `hbtn_0d_usa`
   with a table `cities`.
