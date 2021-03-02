@@ -64,12 +64,10 @@ What I learned from this project:
 
 * **9. Cities by States**
   * [9-cities_by_state_join.sql](./9-cities_by_state_join.sql): MySQL script that lists all cities contained in the database `hbtn_0d_usa`, ordered by ascending city id.
-<!--
-* **10. Genre ID by show**
-  * [10-genre_id_by_show.sql](./10-genre_id_by_show.sql): MySQL script that lists all
-  shows contained in `hbtn_0d_tvshows` that have at least one genre linked, in order of ascending
-`tv_shows.title` and `tv_show_genres.genre_id`.
 
+* **10. Genre ID by show**
+  * [10-genre_id_by_show.sql](./10-genre_id_by_show.sql): MySQL script that lists all shows contained in `hbtn_0d_tvshows` that have at least one genre linked, in order of ascending `tv_shows.title` and `tv_show_genres genre_id`.
+<!--
 * **11. Genre ID for all shows**
   * [11-genre_id_all_shows.sql](./11-genre_id_all_shows.sql): MySQL script that lists all shows contained
   in the database `hbtn_0d_tvshows`, in order of ascending `tv_shows.title` and `tv_show_genres.genre_id`.
