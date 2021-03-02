@@ -80,11 +80,10 @@ What I learned from this project:
 
 * **14. My genres**
   * [14-my_genres.sql](./14-my_genres.sql): MySQL script that uses the `hbtn_0d_tvshows` database to list all genres of the show Dexter, in order of ascending genre name.
-<!--
-* **15. Only Comedy**
-  * [15-comedy_only.sql](./15-comedy_only.sql): MySQL script that lists all comedy shows in the
-  database `hbtn_0d_tvshows`, in order of ascending show title.
 
+* **15. Only Comedy**
+  * [15-comedy_only.sql](./15-comedy_only.sql): MySQL script that lists all comedy shows in the database `hbtn_0d_tvshows`, in order of ascending show title.
+<!--
 * **16. List shows and genres**
   * [16-shows_by_genre.sql](./16-shows_by_genre.sql): MySQL script that lists all shows, and all genres
   linked to that show, from the database `hbtn_0d_tvshows`, in order of ascending show title and genre name.
