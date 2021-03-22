@@ -86,13 +86,13 @@ What you should learn from this project:
   * First line: `'C is fun'`.
   * Second line: `'Python is cool'`.
   * Third line: `'Javascript is awesome'`.
-<!---
+
 * **7. I love C**
   * [7-multi_c.js](./7-multi_c.js): JavaScript script that prints `x` times `'C is fun'`.
   * Usage: `./7-multi_c.js <x>`
   * If the first argument cannot be converted to a number, prints
   `'Missing number of occurrences'`.
-
+<!---
 * **8. Square**
   * [8-square.js](./8-square.js): JavaScript script that prints a square.
   * Usage: `./8-square.js <size>`
