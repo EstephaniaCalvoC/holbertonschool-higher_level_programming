@@ -153,7 +153,7 @@ console.log(myVar);
 * **16. Add me maybe**
   * [102-add_me_maybe.js](./102-add_me_maybe.js): JavaScript function that
   increments a given number and calls a given function.
-<!--
+
 * **17. Increment object**
   * [103-object_fct.js](./103-object_fct.js): Update of the following JavaScript
   script adding a new function `incr` that increments the number `value`.
@@ -174,7 +174,7 @@ console.log(myObject);
 myObject.incr();
 console.log(myObject);
 ```
--->
+
 ---
 
 ## Author
