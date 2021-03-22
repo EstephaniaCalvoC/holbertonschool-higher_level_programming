@@ -66,12 +66,12 @@ What you should learn from this project:
   the first argument passed to it.
   * Usage: `./3-value_argument.js <arg>`
   * If no argument is passed, prints `'No argument'`.
-<!---
+
 * **4. Create a sentence**
   * [4-concat.js](./4-concat.js): JavaScript script that prints two arguments
   passed in the format `<arg 1> is <arg 2>`.
   * Usage: `./4-concat.js <arg1> <arg2>`
-
+<!---
 * **5. An Integer**
   * [5-to_integer.js](./5-to_integer.js): JavaScript script that prints
   `My number: <first argument converted in integer>` if the first pased argument
