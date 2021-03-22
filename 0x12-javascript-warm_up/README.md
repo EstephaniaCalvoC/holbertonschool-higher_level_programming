@@ -109,13 +109,13 @@ What you should learn from this project:
   * [10-factorial.js](./10-factorial.js): JavaScript script that computes and
   prints a factorial.
   * Usage: `./10-factorial.js <number to compute factorial of>`
-<!---
+
 * **11. Second biggest!**
   * [11-second_biggest.js](./11-second_biggest.js): JavaScript script that
   locates the second largest number in the list of provided arguments.
   * Usage: `./11-second_biggest.js <arg 1> <arg 2> ...`
   * If no arguments are passed or the number of arguments is `1`, prints `0`.
-
+<!---
 * **12. Object**
   * [12-object.js](./12-object.js): Update of the following script that replaces
   the value `12` with `89`.
