@@ -115,7 +115,7 @@ What you should learn from this project:
   locates the second largest number in the list of provided arguments.
   * Usage: `./11-second_biggest.js <arg 1> <arg 2> ...`
   * If no arguments are passed or the number of arguments is `1`, prints `0`.
-<!---
+
 * **12. Object**
   * [12-object.js](./12-object.js): Update of the following script that replaces
   the value `12` with `89`.
@@ -131,7 +131,7 @@ YOUR CODE HERE
 */
 console.log(myObject);
 ```
-
+<!---
 * **13. Add file**
   * [13-add.js](./13-add.js): JavaScript function `add` that returns the addition
   of two numbers.
