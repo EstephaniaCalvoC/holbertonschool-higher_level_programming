@@ -78,7 +78,7 @@ What you should learn from this project:
   can be converted to an integer.
   * Usage: `./5-to_integer.js`
   * If the argument cannot be converted to an integer, prints `'Not a number'`.
-<!---
+
 * **6. Loop to languages**
   * [6-multi_languages_loop.js](./6-multi_languages_loop.js): JavaScript script that
   prints three lines using an array and a loop.
@@ -86,7 +86,7 @@ What you should learn from this project:
   * First line: `'C is fun'`.
   * Second line: `'Python is cool'`.
   * Third line: `'Javascript is awesome'`.
-
+<!---
 * **7. I love C**
   * [7-multi_c.js](./7-multi_c.js): JavaScript script that prints `x` times `'C is fun'`.
   * Usage: `./7-multi_c.js <x>`
