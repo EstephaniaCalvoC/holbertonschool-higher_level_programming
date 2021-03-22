@@ -104,12 +104,12 @@ What you should learn from this project:
   numbers passed as arguments.
   * Usage: `./9-add.js <number 1> <number 2>`
   * Prototype: `function add(a, b)`
-<!---
+
 * **10. Factorial**
   * [10-factorial.js](./10-factorial.js): JavaScript script that computes and
   prints a factorial.
   * Usage: `./10-factorial.js <number to compute factorial of>`
-
+<!---
 * **11. Second biggest!**
   * [11-second_biggest.js](./11-second_biggest.js): JavaScript script that
   locates the second largest number in the list of provided arguments.
