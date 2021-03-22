@@ -92,13 +92,13 @@ What you should learn from this project:
   * Usage: `./7-multi_c.js <x>`
   * If the first argument cannot be converted to a number, prints
   `'Missing number of occurrences'`.
-<!---
+
 * **8. Square**
   * [8-square.js](./8-square.js): JavaScript script that prints a square.
   * Usage: `./8-square.js <size>`
   * If the first argument cannot be converted to a number, prints `'Missing size`'.
   * Uses the `X` character to print the square.
-
+<!---
 * **9. Add**
   * [9-add.js](./9-add.js): JavaScript script that prints the addition of two
   numbers passed as arguments.
