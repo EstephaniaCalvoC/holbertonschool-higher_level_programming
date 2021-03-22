@@ -60,13 +60,13 @@ What you should learn from this project:
   * If no arguments are passed, prints `'No argument'`.
   * If one argument is passed, prints `'Argument found'`.
   * Otherwise, prints `'Arguments found'`.
-<!---
+
 * **3. Value of my argument**
   * [3-value_argument.js](./3-value_argument.js): JavaScript script that prints
   the first argument passed to it.
   * Usage: `./3-value_argument.js <arg>`
   * If no argument is passed, prints `'No argument'`.
-
+<!---
 * **4. Create a sentence**
   * [4-concat.js](./4-concat.js): JavaScript script that prints two arguments
   passed in the format `<arg 1> is <arg 2>`.
