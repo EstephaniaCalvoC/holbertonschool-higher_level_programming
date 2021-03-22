@@ -131,11 +131,11 @@ YOUR CODE HERE
 */
 console.log(myObject);
 ```
-<!---
+
 * **13. Add file**
   * [13-add.js](./13-add.js): JavaScript function `add` that returns the addition
   of two numbers.
--->
+
 ---
 
 ## Author

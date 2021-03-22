@@ -11,6 +11,7 @@
 *.vscode/
 *main.c
 *main.py
+*main.js
 *__pycache__
 *PrevRun.sh
 *.json
