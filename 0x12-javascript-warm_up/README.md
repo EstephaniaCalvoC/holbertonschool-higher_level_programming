@@ -71,14 +71,14 @@ What you should learn from this project:
   * [4-concat.js](./4-concat.js): JavaScript script that prints two arguments
   passed in the format `<arg 1> is <arg 2>`.
   * Usage: `./4-concat.js <arg1> <arg2>`
-<!---
+
 * **5. An Integer**
   * [5-to_integer.js](./5-to_integer.js): JavaScript script that prints
   `My number: <first argument converted in integer>` if the first pased argument
   can be converted to an integer.
   * Usage: `./5-to_integer.js`
   * If the argument cannot be converted to an integer, prints `'Not a number'`.
-
+<!---
 * **6. Loop to languages**
   * [6-multi_languages_loop.js](./6-multi_languages_loop.js): JavaScript script that
   prints three lines using an array and a loop.
