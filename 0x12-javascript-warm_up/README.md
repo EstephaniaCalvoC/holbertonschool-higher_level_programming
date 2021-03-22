@@ -52,7 +52,7 @@ What you should learn from this project:
   * Line 1: `'C is fun'`.
   * Line 2: `'Python is cool'`.
   * Line 3: `'Javascript is amazing'`.
-<!---
+
 * **2. Arguments**
   * [2-arguments.js](./2-arguments.js): JavaScript script that prints a message
   depending on the number of arguments passed.
@@ -60,7 +60,7 @@ What you should learn from this project:
   * If no arguments are passed, prints `'No argument'`.
   * If one argument is passed, prints `'Argument found'`.
   * Otherwise, prints `'Arguments found'`.
-
+<!---
 * **3. Value of my argument**
   * [3-value_argument.js](./3-value_argument.js): JavaScript script that prints
   the first argument passed to it.
