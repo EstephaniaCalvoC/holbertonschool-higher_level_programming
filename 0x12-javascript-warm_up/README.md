@@ -145,11 +145,11 @@ myVar = 89;
 require('./100-let_me_const')
 console.log(myVar);
 ```
-<!--
+
 * **15. Call me Moby**
   * [101-call_me_moby.js](./101-call_me_moby.js): JavaScript function that executes
   `x` times a given function.
-
+<!--
 * **16. Add me maybe**
   * [102-add_me_maybe.js](./102-add_me_maybe.js): JavaScript function that
   increments a given number and calls a given function.
