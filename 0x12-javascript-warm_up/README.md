@@ -98,13 +98,13 @@ What you should learn from this project:
   * Usage: `./8-square.js <size>`
   * If the first argument cannot be converted to a number, prints `'Missing size`'.
   * Uses the `X` character to print the square.
-<!---
+
 * **9. Add**
   * [9-add.js](./9-add.js): JavaScript script that prints the addition of two
   numbers passed as arguments.
   * Usage: `./9-add.js <number 1> <number 2>`
   * Prototype: `function add(a, b)`
-
+<!---
 * **10. Factorial**
   * [10-factorial.js](./10-factorial.js): JavaScript script that computes and
   prints a factorial.
