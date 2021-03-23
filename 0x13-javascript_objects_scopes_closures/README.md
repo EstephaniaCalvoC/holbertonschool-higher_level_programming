@@ -49,11 +49,11 @@ What I learned from this project:
     * Instance method `charPrint(c)` that prints the `Square` using the character
     `c`.
     * If `c` is `undefined`, uses the character `X`.
-<!--
+
 * **7. Occurrences**
   * [7-occurrences.js](./7-occurrences.js): JavaScript function that returns the
   number of occurrences in a list.
-
+<!--
 * **8. Esrever**
   * [8-esrever.js](./8-esrever.js): JavaScript function that reverses a list.
 
