@@ -53,10 +53,10 @@ What I learned from this project:
 * **7. Occurrences**
   * [7-occurrences.js](./7-occurrences.js): JavaScript function that returns the
   number of occurrences in a list.
-<!--
+
 * **8. Esrever**
   * [8-esrever.js](./8-esrever.js): JavaScript function that reverses a list.
-
+<!--
 * **9. Log me**
   * [9-logme.js](./9-logme.js): JavaScript function that prints the number of
   arguments already printed as well as the new argument value.
