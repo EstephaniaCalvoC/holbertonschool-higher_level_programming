@@ -42,14 +42,14 @@ What I learned from this project:
   * [5-square.js](./5-square.js): JavaScript script that defines a class `Square`
   that inherits from `Rectangle`.
     * Constructor takes one argument `size`.
-<!--
+
 * **6. Square #1**
   * [6-square.js](./6-square.js): JavaScript script that defines a class `Square`
   that inherits from `Rectangle`. Builds on [5-square.js](./5-square.js) with:
     * Instance method `charPrint(c)` that prints the `Square` using the character
     `c`.
     * If `c` is `undefined`, uses the character `X`.
-
+<!--
 * **7. Occurrences**
   * [7-occurrences.js](./7-occurrences.js): JavaScript function that returns the
   number of occurrences in a list.
