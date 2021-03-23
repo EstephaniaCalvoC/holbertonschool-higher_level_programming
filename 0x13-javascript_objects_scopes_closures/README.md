@@ -4,17 +4,17 @@
 Read or watch:
 *
 
----
+
 ## Learning Objectives
 What I learned from this project:
 
 
 ## Tasks
-<!--
+
 * **0. Rectangle #0**
   * [0-rectangle.js](./0-rectangle.js): JavaScript script that defines an empty
   class `Rectangle`.
-
+<!--
 * **1. Rectangle #1**
   * [1-rectangle.js](./1-rectangle.js): JavaScript script that defines a class
   `Rectangle`. Builds on [0-rectangle.js](./0-rectangle.js) with:
