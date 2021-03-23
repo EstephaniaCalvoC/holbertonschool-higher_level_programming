@@ -25,7 +25,7 @@ What I learned from this project:
   * [2-rectangle.js](./2-rectangle.js): JavaScript script that defines a class
   `Rectangle`. Builds on [1-rectangle.js](./1-rectangle.js) with:
     * If provided `w` and `h` are less than or equal to `0`, creates an empty object.
-<!--
+
 * **3. Rectangle #3**
   * [3-rectangle.js](./3-rectangle.js): JavaScript script that defines a class
   `Rectangle`. Builds on [3-rectangle.js](./3-rectangle.js) with:
@@ -37,7 +37,7 @@ What I learned from this project:
     * Instance method `rotate()` that swaps the `width` and `height` of the `Rectangle`.
     * Instance method `double()` that multiplies the `width` and `height` of the
     `Rectangle` by `2`.
-
+<!--
 * **5. Square #0**
   * [5-square.js](./5-square.js): JavaScript script that defines a class `Square`
   that inherits from `Rectangle`.
