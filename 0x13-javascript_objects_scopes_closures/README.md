@@ -37,12 +37,12 @@ What I learned from this project:
     * Instance method `rotate()` that swaps the `width` and `height` of the `Rectangle`.
     * Instance method `double()` that multiplies the `width` and `height` of the
     `Rectangle` by `2`.
-<!--
+
 * **5. Square #0**
   * [5-square.js](./5-square.js): JavaScript script that defines a class `Square`
   that inherits from `Rectangle`.
     * Constructor takes one argument `size`.
-
+<!--
 * **6. Square #1**
   * [6-square.js](./6-square.js): JavaScript script that defines a class `Square`
   that inherits from `Rectangle`. Builds on [5-square.js](./5-square.js) with:
