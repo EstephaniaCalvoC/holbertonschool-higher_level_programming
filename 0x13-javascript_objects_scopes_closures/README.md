@@ -65,13 +65,13 @@ What I learned from this project:
 * **10. Number conversion**
   * [10-converter.js](./10-converter.js): JavaScript function that converts a number
   from base 10 to another base passed as argument.
-<!--
+
 * **11. Factor index**
   * [100-map.js](./100-map.js): JavaScript script that imports an array and creates
   a new array with each value equal to the value of initial list times the index of
   the new list.
   * Prints both the initial and new list.
-
+<!--
 * **12. Sorted occurences**
   * [101-sorted.js](./101-sorted.js): JavaScript script that imports a dictionary
   of occurrences by user ID and computes a new dictionary of user ID's by occurrences.
