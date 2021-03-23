@@ -56,12 +56,12 @@ What I learned from this project:
 
 * **8. Esrever**
   * [8-esrever.js](./8-esrever.js): JavaScript function that reverses a list.
-<!--
+
 * **9. Log me**
   * [9-logme.js](./9-logme.js): JavaScript function that prints the number of
   arguments already printed as well as the new argument value.
   * Output: `<number arguments already printed>: <current argument value>`
-
+<!--
 * **10. Number conversion**
   * [10-converter.js](./10-converter.js): JavaScript function that converts a number
   from base 10 to another base passed as argument.
