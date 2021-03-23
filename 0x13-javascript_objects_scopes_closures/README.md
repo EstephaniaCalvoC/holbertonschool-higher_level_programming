@@ -71,12 +71,12 @@ What I learned from this project:
   a new array with each value equal to the value of initial list times the index of
   the new list.
   * Prints both the initial and new list.
-<!--
+
 * **12. Sorted occurences**
   * [101-sorted.js](./101-sorted.js): JavaScript script that imports a dictionary
   of occurrences by user ID and computes a new dictionary of user ID's by occurrences.
   * Prints the new dictionary.
-
+<!--
 * **13. Concat files**
   * [102-concat.js](./102-concat.js): JavaScript script that concatenates two files
   passed as arguments into a file specifed as the third argument.
