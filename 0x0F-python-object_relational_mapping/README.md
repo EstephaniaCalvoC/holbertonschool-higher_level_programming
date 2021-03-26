@@ -25,7 +25,7 @@ What I learned from this project:
   * Usage: `./1-filter_states.py <mysql username> <mysql password>
   <database name>`.
   * Results are ordered by ascending `states.id`.
-<!--
+
 * **2. Filter states by user input**
   * [2-my_filter_states.py](./2-my_filter_states.py): Python script that uses
   MySQLdb to display all values matching a given name in the `states` table of
@@ -34,7 +34,7 @@ What I learned from this project:
   <database name> <state name searched>`.
   * Results are ordered by ascending `states.id`.
   * Uses string formatting to construct the SQL query.
-
+<!--
 * **3. SQL Injection...**
   * [3-my_safe_filter_states.py](./3-my_safe_filter_states.py): Python script
   that uses MySQLdb to display all values matching a given name in the `states`
