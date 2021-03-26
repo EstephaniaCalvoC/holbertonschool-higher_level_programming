@@ -34,7 +34,7 @@ What I learned from this project:
   <database name> <state name searched>`.
   * Results are ordered by ascending `states.id`.
   * Uses string formatting to construct the SQL query.
-<!--
+
 * **3. SQL Injection...**
   * [3-my_safe_filter_states.py](./3-my_safe_filter_states.py): Python script
   that uses MySQLdb to display all values matching a given name in the `states`
@@ -43,7 +43,7 @@ What I learned from this project:
   <database name> <state name searched>`.
   * Results are ordered by ascending `states.id`.
   * Safe from SQL injections.
-
+<!--
 * **4. Cities by states**
   * [4-cities_by_state.py](./4-cities_by_state.py): Python script that uses
   MySQLdb to list all cities from the database `hbtn_0e_4_usa`.
