@@ -43,14 +43,14 @@ What I learned from this project:
   <database name> <state name searched>`.
   * Results are ordered by ascending `states.id`.
   * Safe from SQL injections.
-<!--
+
 * **4. Cities by states**
   * [4-cities_by_state.py](./4-cities_by_state.py): Python script that uses
   MySQLdb to list all cities from the database `hbtn_0e_4_usa`.
   * Usage: `./4-cities_by_state.py <mysql username> <mysql password>
   <database name>`.
   * Results are ordered by ascending `cities.id`.
-
+<!--
 * **5. All cities by state**
   * [5-filter_cities.py](./5-filter_cities.py): Python script that uses MySQLdb
   to list all cities of a given state in the database `hbtn_0e_4_usa`.
