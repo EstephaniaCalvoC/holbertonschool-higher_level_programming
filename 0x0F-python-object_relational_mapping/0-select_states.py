@@ -3,8 +3,7 @@
 import MySQLdb
 from sys import argv
 
-
-def main():
+if __name__ == "__main__":
     _user = argv[1]
     _pw = argv[2]
     _dbname = argv[3]
@@ -23,7 +22,3 @@ def main():
         print(row)
     cur.close()
     conn.close()
-
-
-if __name__ == "__main__":
-    main()
