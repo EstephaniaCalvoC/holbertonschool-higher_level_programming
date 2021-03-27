@@ -50,14 +50,14 @@ What I learned from this project:
   * Usage: `./4-cities_by_state.py <mysql username> <mysql password>
   <database name>`.
   * Results are ordered by ascending `cities.id`.
-<!--
+
 * **5. All cities by state**
   * [5-filter_cities.py](./5-filter_cities.py): Python script that uses MySQLdb
   to list all cities of a given state in the database `hbtn_0e_4_usa`.
   * Usage: `./5-filter_cities.py <mysql username> <mysql password>
   <database name>`.
   * Results are sorted by ascending `cities.id`.
-
+<!--
 * **6. First state model**
   * [model_state.py](./model_state.py): Python module defining a class `State`
   that inherits from SQLAlchemy `Base` and links to the MySQL table `states`.
