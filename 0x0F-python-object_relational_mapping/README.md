@@ -109,14 +109,14 @@ What I learned from this project:
   `id = 2` in the database `hbtn_0e_6_usa` to "New Mexico".
   * Usage: `./12-model_state_update_id_2.py <mysql username> <mysql password>
   <database name>`.
-<!--
+
 * **13. Delete states**
   * [13-model_state_delete_a.py](./13-model_state_delete_a.py): Python script
   that uses SQLAlchemy to delete all `State` objects with a name containing the
   letter `a` from the database `hbtn_0e_6_usa`.
   * Usage: `./13-model_state_delete_a.py <mysql username> <mysql password>
   <database name>`.
-
+<!--
 * **14. Cities in state**
   * [model_city.py](./model_city.py): Python module defining a class `City`
   that inherits from SQLAlchemy `Base` and links to the MySQL table `cities`.
