@@ -128,7 +128,7 @@ What I learned from this project:
   * Usage: `./14-model_city_fetch_by_state.py <mysql username> <mysql password>
   <database name>`.
   * Results are sorted by ascending `cities.id`.
-<!--
+
 * **15. City relationship**
   * [relationship_state.py](./relationship_state.py): Python module defining a
   class `State` that inherits from SQLAlchemy `Base` and links to the MySQL table
@@ -148,7 +148,7 @@ What I learned from this project:
   * Usage: `./100-relationship_states_cities.py <mysql username>
   <mysql password> <database name>`.
   * Uses the `cities` relationship for all `State` objects.
-
+<!--
 * **16. List relationship**
   * [101-relationship_states_cities_list.py](./101-relationship_states_cities_list.py):
   Python script that uses SQLAlchemy to list all `State` and corresponding
