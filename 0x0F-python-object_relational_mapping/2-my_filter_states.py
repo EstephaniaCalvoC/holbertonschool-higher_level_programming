@@ -1,11 +1,12 @@
 #!/usr/bin/python3
-# Display all values in the states table of hbtn_0e_0_usa
-# where name matches the argument.
+"""
+Display all values in the states table of hbtn_0e_0_usa
+where name matches the argument.
+"""
 import MySQLdb
 from sys import argv
 
-
-def main():
+if __name__ == "__main__":
     _user = argv[1]
     _pw = argv[2]
     _dbname = argv[3]
@@ -28,7 +29,3 @@ def main():
         print(s)
     cur.close()
     conn.close()
-
-
-if __name__ == "__main__":
-    main()

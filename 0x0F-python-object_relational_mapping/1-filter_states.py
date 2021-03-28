@@ -1,10 +1,12 @@
 #!/usr/bin/python3
-# List all states with a name starting with N from the database hbtn_0e_0_usa
+"""
+List all states with a name starting with N from the database hbtn_0e_0_usa.
+"""
 import MySQLdb
 from sys import argv
 
 
-def main():
+if __name__ == "__main__":
     _user = argv[1]
     _pw = argv[2]
     _dbname = argv[3]
@@ -24,7 +26,3 @@ def main():
             print(s)
     cur.close()
     conn.close()
-
-
-if __name__ == "__main__":
-    main()
