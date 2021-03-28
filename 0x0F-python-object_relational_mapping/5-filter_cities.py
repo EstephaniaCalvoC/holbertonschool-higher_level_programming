@@ -1,10 +1,12 @@
 #!/usr/bin/python3
-# Lists all cities of that state, using the database hbtn_0e_4_usa
+"""
+Lists all cities of that state, using the database hbtn_0e_4_usa.
+"""
 import MySQLdb
 from sys import argv
 
 
-def main():
+if __name__ == "__main__":
     _user = argv[1]
     _pw = argv[2]
     _dbname = argv[3]
@@ -34,7 +36,3 @@ def main():
     print(tCities[:-2])
     cur.close()
     conn.close()
-
-
-if __name__ == "__main__":
-    main()
