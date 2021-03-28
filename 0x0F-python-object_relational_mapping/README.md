@@ -69,7 +69,7 @@ What I learned from this project:
   * Usage: `./7-model_state_fetch_all.py <mysql username> <mysql password>
   <database name>`.
   * Results are sorted by ascending `states.id`.
-<!--
+
 * **8. First state**
   * [8-model_state_fetch_first.py](./8-model_state_fetch_first.py): Python script
   that uses SQLAlchemy to print the first `State` object from the database
@@ -77,7 +77,7 @@ What I learned from this project:
   * Usage: `./8-model_state_fetch_first.py <mysql username> <mysql password>
   <database name>`.
   * If the `states` table is empty, prints `Nothing`.
-
+<!--
 * **9. Contains `a`**
   * [9-model_state_filter_a.py](./9-model_state_filter_a.py): Python script
   that uses SQLAlchemy to list all `State` objects that contain the letter `a`
