@@ -157,7 +157,7 @@ What I learned from this project:
   <mysql password> <database name>`.
   * Uses the `cities` relationship for all `State` objects.
   * Results are sorted by ascending `states.id` and `cities.id`.
-<!--
+
 * **17. List city**
   * [102-relationship_cities_states_list.py](./102-relationship_cities_states_list.py):
   Python script that uses SQLAlchemy to list all `City` objects from the database
@@ -166,7 +166,7 @@ What I learned from this project:
   <mysql password> <database name>`.
   * Uses the `state` relationship to access the `State` objects linked to `City` objects.
   * Results are sorted by ascending `cities.id`.
--->
+
 
 ---
 ## Author
