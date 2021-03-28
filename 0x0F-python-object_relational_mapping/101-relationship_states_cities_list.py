@@ -22,6 +22,3 @@ if __name__ == "__main__":
         print("{}: {}".format(state.id, state.name))
         for city in state.cities:
             print("    {}: {}".format(city.id, city.name))
-
-    session.add(City(name="San Francisco", state=State(name="California")))
-    session.commit()
