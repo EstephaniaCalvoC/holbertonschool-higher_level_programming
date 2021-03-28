@@ -102,14 +102,14 @@ What I learned from this project:
   * Usage: `./11-model_state_insert.py <mysql username> <mysql password>
   <database name>`.
   * Prints the `id` of the new `State` after creation.
-<!--
+
 * **12. Update a state**
   * [12-model_state_update_id_2.py](./12-model_state_update_id_2.py): Python
   script that uses SQLAlchemy to change the name of the `State` object with
   `id = 2` in the database `hbtn_0e_6_usa` to "New Mexico".
   * Usage: `./12-model_state_update_id_2.py <mysql username> <mysql password>
   <database name>`.
-
+<!--
 * **13. Delete states**
   * [13-model_state_delete_a.py](./13-model_state_delete_a.py): Python script
   that uses SQLAlchemy to delete all `State` objects with a name containing the
