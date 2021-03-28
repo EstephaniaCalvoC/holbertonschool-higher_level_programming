@@ -116,7 +116,7 @@ What I learned from this project:
   letter `a` from the database `hbtn_0e_6_usa`.
   * Usage: `./13-model_state_delete_a.py <mysql username> <mysql password>
   <database name>`.
-<!--
+
 * **14. Cities in state**
   * [model_city.py](./model_city.py): Python module defining a class `City`
   that inherits from SQLAlchemy `Base` and links to the MySQL table `cities`.
@@ -128,7 +128,7 @@ What I learned from this project:
   * Usage: `./14-model_city_fetch_by_state.py <mysql username> <mysql password>
   <database name>`.
   * Results are sorted by ascending `cities.id`.
-
+<!--
 * **15. City relationship**
   * [relationship_state.py](./relationship_state.py): Python module defining a
   class `State` that inherits from SQLAlchemy `Base` and links to the MySQL table
