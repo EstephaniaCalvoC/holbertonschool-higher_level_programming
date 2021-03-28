@@ -94,7 +94,7 @@ What I learned from this project:
   <database name> <state searched name>`.
   * Displays the `id` of the matched `State`.
   * If no match is found, prints `Not found`.
-<!--
+
 * **11. Add a new state**
   * [11-model_state_insert.py](./11-model_state_insert.py): Python script that
   uses SQLAlchemy to add the `State` object "Louisiana" to the database
@@ -102,7 +102,7 @@ What I learned from this project:
   * Usage: `./11-model_state_insert.py <mysql username> <mysql password>
   <database name>`.
   * Prints the `id` of the new `State` after creation.
-
+<!--
 * **12. Update a state**
   * [12-model_state_update_id_2.py](./12-model_state_update_id_2.py): Python
   script that uses SQLAlchemy to change the name of the `State` object with
