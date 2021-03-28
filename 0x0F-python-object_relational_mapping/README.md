@@ -85,7 +85,7 @@ What I learned from this project:
   * Usage: `./9-model_state_filter_a.py <mysql username> <mysql password>
   <database name>`.
   * Results are ordered by ascending `states.id`.
-<!--
+
 * **10. Get a state**
   * [10-model_state_my_get.py](./10-model_state_my_get.py): Python script that
   uses SQLAlchemy to print the `id` of the `State` object with name matching that
@@ -94,7 +94,7 @@ What I learned from this project:
   <database name> <state searched name>`.
   * Displays the `id` of the matched `State`.
   * If no match is found, prints `Not found`.
-
+<!--
 * **11. Add a new state**
   * [11-model_state_insert.py](./11-model_state_insert.py): Python script that
   uses SQLAlchemy to add the `State` object "Louisiana" to the database
