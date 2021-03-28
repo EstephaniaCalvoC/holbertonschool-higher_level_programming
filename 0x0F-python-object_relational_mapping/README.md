@@ -57,11 +57,11 @@ What I learned from this project:
   * Usage: `./5-filter_cities.py <mysql username> <mysql password>
   <database name>`.
   * Results are sorted by ascending `cities.id`.
-<!--
+
 * **6. First state model**
   * [model_state.py](./model_state.py): Python module defining a class `State`
   that inherits from SQLAlchemy `Base` and links to the MySQL table `states`.
-
+<!--
 * **7. All states via SQLAlchemy**
   * [7-model_state_fetch_all.py](./7-model_state_fetch_all.py): Python script
   that uses SQLAlchemy to list all `State` objects from the database
