@@ -67,12 +67,12 @@ What I learned from this project:
   * [100-status_code.sh](./100-status_code.sh): Bash script that sends a `GET`
     request to a given URL without using pipes, redirections, `;`, or `&&` and
       displays the status code of the response.
-<!--
+
 * **8. cURL a JSON file**
   * [101-post_json.sh](./101-post_json.sh): Bash script that sends a JSON `POST`
     request with the contents of a provided file to a given URL, and displays the
       response body.
-
+<!--
 * **9. Catch me if you can!**
   * [102-catch_me.sh](./102-catch_me.sh): Bash script that sends a request to
     `0.0.0.0:5000/catch_me` that causes the server to respond with a message
