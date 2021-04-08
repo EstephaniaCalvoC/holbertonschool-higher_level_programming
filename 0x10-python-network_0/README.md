@@ -30,7 +30,7 @@ What I learned from this project:
 ---
 ## Tasks:
 
-<!--
+
 * **0. cURL body size**
   [0-body_size.sh](./0-body_size.sh): Bash script that sends a `GET` request to
     a given URL and displays the size of the response body in bytes.
@@ -56,7 +56,7 @@ What I learned from this project:
   * [5-post_params.sh](./5-post_params.sh): Bash script that sends a `POST`
     request to a given URL with the variables `email=hr@holbertonschool.com` and
       `subject=I will always be here for PLD` and displays the response body.
-
+<!--
 * **6. Find a peak**
   * [6-peak.py](./6-peak.py): [Technical interview preparation] - Python
     program that finds a peak in a list of unsorted integers.
