@@ -52,13 +52,13 @@ What I learned from this project:
   `X-Request-Id` response header variable of a request to a given URL.
   * Usage: `./5-hbtn_header.py <URL>`
 	* Uses `requests`.
-<!--
+
 * **6. POST an email #1**
   * [6-post_email.py](./6-post_email.py): Python script that sends a `POST`
   request to a given URL with a given email, and displays the response body.
   * Usage: `./6-post_email.py <URL> <email>`.
 	* Uses `requests`.
-
+<!--
 * **7. Error code #1**
   * [7-error_code.py](./7-error_code.py): Python script sends a request to
   a given URL and displays the response body.
