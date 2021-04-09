@@ -14,8 +14,7 @@ if __name__ == "__main__":
 
     r = requests.get(s_url)
 
-    if 'application/json' in r.headers['Content-Type']:
-
+    if 'application/json' in r.headers.get('Content-Type'):
         commits = r.json()
 
         for i in range(10):
