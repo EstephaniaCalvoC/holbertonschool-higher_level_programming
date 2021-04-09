@@ -7,8 +7,8 @@ if __name__ == "__main__":
     import requests
     import sys
 
-    s_user = sys.argv[1]
-    s_repo = sys.argv[2]
+    s_repo = sys.argv[1]
+    s_user = sys.argv[2]
     p_url = 'https://api.github.com/repos/{}/{}/commits'
     s_url = p_url.format(s_user, s_repo)
 
