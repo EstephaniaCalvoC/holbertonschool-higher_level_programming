@@ -64,7 +64,7 @@ What I learned from this project:
   a given URL and displays the response body.
   * Handles HTTP errors.
 	* Uses `requests`.
-<!--
+
 * **8. Search API**
   * [8-json_api.py](./8-json_api.py): Python script that sends a `POST` request
   to `http://0.0.0.0:5000/search_user` with a letter passed as parameter.
@@ -74,7 +74,7 @@ What I learned from this project:
 	* If the response body is properly formatted and non-empty, displays it as
   `[<id>] <name>`.
   * Uses `requests`.
-
+<!--
 * **9. Star Wars API #0**
   * [9-starwars.py](./9-starwars.py): Python script sends a search request to
   the Star Wars API `people` endpoint with a given string.
