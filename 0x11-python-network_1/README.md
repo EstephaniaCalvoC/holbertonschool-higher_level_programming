@@ -81,13 +81,12 @@ What I learned from this project:
   corresponding ID.
   * Usage: `./10-my_github.py <username> <password>`
 	* Uses `requests`.
-<!--
-* **11. Time for an interview!**
+
+* **10. Time for an interview!**
   * [100-github_commits.py](./100-github_commits.py): Python script that lists
   the 10 most recent comments of a given GitHub repository using the GitHub API.
   * Usage: `./100-github_commits.py <repository name> <owner name>`
 	* Uses `requests`.
--->
 
 ---
 
