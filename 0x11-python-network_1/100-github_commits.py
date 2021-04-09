@@ -14,7 +14,7 @@ if __name__ == "__main__":
 
     r = requests.get(s_url)
 
-    if 'application/json' in r.headers.get('Content-Type'):
+    try:
         commits = r.json()
 
         for i in range(10):
@@ -22,5 +22,5 @@ if __name__ == "__main__":
             s_sha = commit.get('sha')
             s_author = commit.get('commit').get('author').get('name')
             print("{}: {}".format(s_sha, s_author))
-    else:
-        print("Not a valid JSON")
+    except Exception:
+        pass
