@@ -13,7 +13,6 @@ if __name__ == "__main__":
     s_url = p_url.format(s_user, s_repo)
 
     r = requests.get(s_url)
-    print(r.headers['Content-Type'])
 
     if 'application/json' in r.headers['Content-Type']:
 
