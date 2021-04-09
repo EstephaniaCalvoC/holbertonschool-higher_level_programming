@@ -13,6 +13,10 @@ if __name__ == "__main__":
     s_url = p_url.format(s_user, s_repo)
 
     r = requests.get(s_url)
+
+    if r.headers['content-type'] == "json":
+        print("Not a valid JSON")
+
     commits = r.json()
 
     for i in range(10):
