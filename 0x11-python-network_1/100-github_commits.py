@@ -13,14 +13,16 @@ if __name__ == "__main__":
     s_url = p_url.format(s_user, s_repo)
 
     r = requests.get(s_url)
+    print(r.headers['Content-Type'])
 
-    if r.headers['content-type'] == "json":
+    if 'application/json' in r.headers['Content-Type']:
+
+        commits = r.json()
+
+        for i in range(10):
+            commit = commits[i]
+            s_sha = commit.get('sha')
+            s_author = commit.get('commit').get('author').get('name')
+            print("{}: {}".format(s_sha, s_author))
+    else:
         print("Not a valid JSON")
-
-    commits = r.json()
-
-    for i in range(10):
-        commit = commits[i]
-        s_sha = commit.get('sha')
-        s_author = commit.get('commit').get('author').get('name')
-        print("{}: {}".format(s_sha, s_author))
