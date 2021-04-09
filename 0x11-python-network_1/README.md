@@ -46,13 +46,13 @@ What I learned from this project:
   * [4-hbtn_status.py](./4-hbtn_status.py): Python script that fetches
   `https://intranet.hbtn.io/status`.
   * Uses `requests`.
-<!--
+
 * **5. Response header value #1**
   * [5-hbtn_header.py](./5-hbtn_header.py): Python script that displays the
   `X-Request-Id` response header variable of a request to a given URL.
   * Usage: `./5-hbtn_header.py <URL>`
 	* Uses `requests`.
-
+<!--
 * **6. POST an email #1**
   * [6-post_email.py](./6-post_email.py): Python script that sends a `POST`
   request to a given URL with a given email, and displays the response body.
