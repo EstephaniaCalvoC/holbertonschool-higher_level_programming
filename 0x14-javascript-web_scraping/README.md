@@ -18,12 +18,12 @@ What I learned from this project:
 
 ---
 ## Tasks :page_with_curl:
-<!--
+
 * **0. Readme**
   * [0-readme.js](./0-readme.js): JavaScript script that reads and prints the
   contents of a file.
   * Usage: `./0-readme.js <file path>`.
-
+<!--
 * **1. Write me**
   * [1-writeme.js](./1-writeme.js): JavaScript script that writes a string to a
   file.
