@@ -1,10 +1,18 @@
 #!/usr/bin/node
 const request = require('request');
-const urlWedgeAntilles = 'https://swapi-api.hbtn.io/api/people/18/';
+const url = process.argv[2];
+let nFilms = 0;
 
-request.get(urlWedgeAntilles, function (error, response, body) {
+request(url, function (error, response, body) {
   if (error) {
     console.error('error:', error);
   }
-  console.log(JSON.parse(body).films.length);
+  const films = JSON.parse(body).results;
+  for (const film of films) {
+    const characters = film.characters;
+    if (characters.find((c) => c.endsWith('/18/'))) {
+      nFilms += 1;
+    }
+  }
+  console.log(nFilms);
 });
