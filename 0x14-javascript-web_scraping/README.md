@@ -50,12 +50,12 @@ What I learned from this project:
   * [5-request_store.js](./5-request_store.js): JavaScript script that stores the
   contents of a webpage in a file.
   * Usage: `./5-request_store.js <URL to get> <file path to store content in>`.
-<!--
+
 * **6. How many completed?**
   * [6-completed_tasks.js](./6-completed_tasks.js): JavaScript script that uses the
   JSONPlaceholder API to compute the number of tasks completed per user ID.
   * Usage: `./6-completed_tasks.js https://jsonplaceholder.typicode.com/todos`.
-
+<!--
 * **7. Who was playing in this movie?**
   * [100-starwars_characters.js](./100-starwars_characters.js): JavaScript script
   that uses the Star Wars API to print all characters featured in a given movie.
