@@ -50,12 +50,12 @@ What I learned from this project
 * **3. Add `.red` class**
   * [3-script.js](./3-script.js): JavaScript script that uses jQuery to add the class
   `.red` to the HTML tag `HEADER` when the user clicks on the tag `DIV#red_header`.
-<!--
+
 * **4. Toggle classes**
   * [4-script.js](./4-script.js): JavaScript script that uses jQuery to toggle the class
   of the HTML tag `HEADER` between `.red` and `.green` when the user clicks on the tag
   `DIV#red_header`.
-
+<!--
 * **5. List of elements**
   * [5-script.js](./5-script.js): JavaScript script that uses jQuery to add a `LI`
   element to a list when the user clicks on the tag `DIV#add_item`.
