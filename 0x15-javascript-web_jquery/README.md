@@ -34,10 +34,11 @@ What I learned from this project
 
 ---
 ## Tasks:
+
 * **0. No jQuery**
   * [0-script.js](./0-script.js): JavaScript script that uses `document.querySelector`
   to update the text color of the HTML tag `HEADER` to red (`#ff0`).
-
+<!--
 * **1. With jQuery**
   * [1-script.js](./1-script.js): JavaScript script that uses jQuery to update the
   text color of the HTML tag `HEADER` to red (`#ff0`).
@@ -112,6 +113,7 @@ What I learned from this project
   * Identical to [102-script.js](./102-script.js) except that the tranlsation is fetched
   when either the user clicks on the HTML tag `INPUT#btn_translate` or presses `ENTER`
   when hovering over the tag `INPUT#language_code`.
+-->
 ---
 
 ## Author
