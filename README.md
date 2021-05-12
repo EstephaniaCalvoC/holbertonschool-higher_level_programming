@@ -22,6 +22,7 @@ This repository contains higer-level programming projects for [Holberton School]
 * [0x13. JavaScript - Objects, Scopes and Closures](./0x13-javascript_objects_scopes_closures)
 * [0x0F. Python - Object-relational mapping](./0x0F-python-object_relational_mapping)
 * [0x14. JavaScript - Web scraping](./0x14-javascript-web_scraping)
+* [0x15. JavaScript - Web jQuery](0x15-javascript-web_jquery)
 
 ---
 
