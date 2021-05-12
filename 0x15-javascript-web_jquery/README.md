@@ -38,11 +38,11 @@ What I learned from this project
 * **0. No jQuery**
   * [0-script.js](./0-script.js): JavaScript script that uses `document.querySelector`
   to update the text color of the HTML tag `HEADER` to red (`#ff0`).
-<!--
+
 * **1. With jQuery**
   * [1-script.js](./1-script.js): JavaScript script that uses jQuery to update the
   text color of the HTML tag `HEADER` to red (`#ff0`).
-
+<!--
 * **2. Click and turn red**
   * [2-script.js](./2-script.js): JavaScript script that uses jQuery to update the text color
   of the HTML tag `HEADER` to red (`#ff0`) when the user clicks on the tag `DIV#red_header`.
