@@ -55,12 +55,12 @@ What I learned from this project
   * [4-script.js](./4-script.js): JavaScript script that uses jQuery to toggle the class
   of the HTML tag `HEADER` between `.red` and `.green` when the user clicks on the tag
   `DIV#red_header`.
-<!--
+
 * **5. List of elements**
   * [5-script.js](./5-script.js): JavaScript script that uses jQuery to add a `LI`
   element to a list when the user clicks on the tag `DIV#add_item`.
   * Adds the element `<li>Item</li>` to `UL.my_list`.
-
+<!--
 * **6. Change the text**
   * [6-script.js](./6-script.js): JavaScript script that uses jQuery to update the text
   of the HTML tag `HEADER` to "New Header!!!" when the user clicks on the tag
