@@ -42,11 +42,11 @@ What I learned from this project
 * **1. With jQuery**
   * [1-script.js](./1-script.js): JavaScript script that uses jQuery to update the
   text color of the HTML tag `HEADER` to red (`#ff0`).
-<!--
+
 * **2. Click and turn red**
   * [2-script.js](./2-script.js): JavaScript script that uses jQuery to update the text color
   of the HTML tag `HEADER` to red (`#ff0`) when the user clicks on the tag `DIV#red_header`.
-
+<!--
 * **3. Add `.red` class**
   * [3-script.js](./3-script.js): JavaScript script that uses jQuery to add the class
   `.red` to the HTML tag `HEADER` when the user clicks on the tag `DIV#red_header`.
