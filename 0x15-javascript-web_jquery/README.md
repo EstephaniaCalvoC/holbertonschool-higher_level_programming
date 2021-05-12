@@ -60,7 +60,7 @@ What I learned from this project
   * [5-script.js](./5-script.js): JavaScript script that uses jQuery to add a `LI`
   element to a list when the user clicks on the tag `DIV#add_item`.
   * Adds the element `<li>Item</li>` to `UL.my_list`.
-<!--
+
 * **6. Change the text**
   * [6-script.js](./6-script.js): JavaScript script that uses jQuery to update the text
   of the HTML tag `HEADER` to "New Header!!!" when the user clicks on the tag
@@ -70,7 +70,7 @@ What I learned from this project
   * [7-script.js](./7-script.js): JavaScript script that uses jQuery to fetch the Star
   Wars API `https://swapi.co/api/people/5/?format=json` and display the name in the HTML
   tag `DIV#character`.
-
+<!--
 * **8. Star Wars movies**
   * [8-script.js](./8-script.js): JavaScript script that uses jQuery to fetch and list
   all movie titles from the Star Wars API `https://swapi.co/api/films/?format=json`.
